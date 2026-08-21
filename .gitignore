@@ -25,3 +25,5 @@ minecraft/XaeroWaypoints_BACKUP240807/New World/config.txt
 /minecraft/dynamic-resource-pack-cache
 minecraft/config/fml.toml
 /minecraft/logs
+minecraft/config/fabric/indigo-renderer.properties
+minecraft/config/iris.properties
