@@ -29,3 +29,5 @@ minecraft/config/fabric/indigo-renderer.properties
 minecraft/config/iris.properties
 /minecraft/crash-reports
 /minecraft/.cache
+minecraft/config/cubes_without_borders.json
+minecraft/config/euphoria_patcher/.data.json
