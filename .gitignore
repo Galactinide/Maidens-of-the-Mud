@@ -3,3 +3,22 @@ minecraft/.mixin.out/
 instance.cfg
 /minecraft/.mixin.out
 *.png
+/minecraft/.sable
+minecraft/command_history.txt
+/minecraft/dynamic-data-pack-cache
+/minecraft/downloads
+/minecraft/ESM
+/minecraft/figura
+/minecraft/local
+/minecraft/mods/.index
+minecraft/observable_announce
+minecraft/options.txt
+minecraft/patchouli_data.json
+minecraft/ponders_watched.json
+/minecraft/Sable-Schematics
+/minecraft/saves
+/minecraft/schematics
+minecraft/usernamecache.json
+minecraft/usercache.json
+/minecraft/xaero
+minecraft/XaeroWaypoints_BACKUP240807/New World/config.txt
