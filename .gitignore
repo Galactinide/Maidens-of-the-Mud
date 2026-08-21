@@ -31,3 +31,6 @@ minecraft/config/iris.properties
 /minecraft/.cache
 minecraft/config/cubes_without_borders.json
 minecraft/config/euphoria_patcher/.data.json
+minecraft/config/flywheel-client-2.toml.bak
+minecraft/config/sodium-fingerprint.json
+minecraft/config/flywheel-client.toml
