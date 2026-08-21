@@ -1,0 +1,37 @@
+filename = 'Create Renewable Platinum.jar'
+name = 'Create: Renewable Platinum'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = 'd2c9224fafa653c5dbcbfb5ad1e9faed4a528d3da60a783af1d4a6704150a4bfbaa20fed11f1692849edc7d00146a2eb6f04c47e2a3aec0c6269c5e8e1c2b014'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jzXZaFdi/versions/ustMOq0Z/Create Renewable Platinum.jar'
+
+[update.modrinth]
+mod-id = 'jzXZaFdi'
+version = 'ustMOq0Z'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'hGAlcCDJ'
+type = 'REQUIRED'
+version = 'Wr4oLYoH'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'oWaK0Q19'
+type = 'REQUIRED'
+version = 'w7zlLnea'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ApkoHNO9'
+type = 'REQUIRED'
+version = 'hTnJ29I0'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
+version = 'UjX6dr61'

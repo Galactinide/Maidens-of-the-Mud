@@ -1,0 +1,18 @@
+filename = 'wooledboots-1.8-neoforge-mc1.21.1.jar'
+name = 'Wooled Boots'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.8'
+
+[download]
+hash = '5d98e86ffe02a03c5052a8ce15675f1a4b75ba0f1513ceabc9698fe4f1d2bb3bdff25f1bdacb7d77ff900e7df76399622ed84ccd39f22e2ac61b056ecb897038'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/YJfbVVdW/versions/pLk50hdT/wooledboots-1.8-neoforge-mc1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'YJfbVVdW'
+version = 'pLk50hdT'

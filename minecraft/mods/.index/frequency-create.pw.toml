@@ -1,0 +1,34 @@
+filename = 'frequency-1.21.1-neoforge-0.2.0.jar'
+name = 'Frequency Create'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.2.0'
+
+[download]
+hash = '34e0e198e22e85fc19d6e3cd4126e82a904497e7376b4bbaacbcbedca98cbcc7dd3d6adfe772fe0b49fb1b1b2e1fa092094fbd20e1571b8ce642efe50b6781f6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/RgoFrYci/versions/kgyQ1pbG/frequency-1.21.1-neoforge-0.2.0.jar'
+
+[update.modrinth]
+mod-id = 'RgoFrYci'
+version = 'kgyQ1pbG'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
+version = 'NEb0yK69'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fRiHVvU7'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nfn13YXA'
+type = 'OPTIONAL'

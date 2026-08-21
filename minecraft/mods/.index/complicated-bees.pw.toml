@@ -1,0 +1,29 @@
+filename = 'complicated_bees-1.21.1-3.6.0.jar'
+name = 'Complicated Bees'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-3.6.0'
+
+[download]
+hash = '0cb812e0ab9719d84ac7de5f90fa905d669db01883e1db8100d824fee05a0a503ba7d87cc185963a554338408ce14a5d12609013d7f9c2a892b5a71e4b484a07'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uhqEKIQS/versions/xk6PhYXs/complicated_bees-1.21.1-3.6.0.jar'
+
+[update.modrinth]
+mod-id = 'uhqEKIQS'
+version = 'xk6PhYXs'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nvQzSEkH'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nU0bVIaL'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'

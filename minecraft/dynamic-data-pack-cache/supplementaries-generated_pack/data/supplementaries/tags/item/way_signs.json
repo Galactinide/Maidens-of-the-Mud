@@ -1,0 +1,21 @@
+{
+  "values": [
+    "supplementaries:way_sign_acacia",
+    "supplementaries:enchanted/way_sign_alder",
+    "supplementaries:way_sign_bamboo",
+    "supplementaries:way_sign_birch",
+    "supplementaries:way_sign_cherry",
+    "supplementaries:way_sign_crimson",
+    "supplementaries:way_sign_dark_oak",
+    "supplementaries:enchanted/way_sign_hawthorn",
+    "supplementaries:way_sign_jungle",
+    "supplementaries:way_sign_mangrove",
+    "supplementaries:garnished/way_sign_nut",
+    "supplementaries:way_sign_oak",
+    "supplementaries:enchanted/way_sign_rowan",
+    "supplementaries:garnished/way_sign_sepia",
+    "supplementaries:way_sign_spruce",
+    "supplementaries:way_sign_warped"
+  ],
+  "remove": []
+}

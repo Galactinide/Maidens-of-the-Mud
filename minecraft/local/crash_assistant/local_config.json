@@ -1,0 +1,11 @@
+{
+	"shown_reasons": {
+		"Create6Addons": true,
+		"MixinApply": true
+	},
+	"analysis": {
+		"jdeps": {
+			"include_nested": true
+		}
+	}
+}
