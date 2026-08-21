@@ -1,2 +1,5 @@
 instance.cfg
 minecraft/.mixin.out/
+instance.cfg
+/minecraft/.mixin.out
+*.png
