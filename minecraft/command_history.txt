@@ -1,9 +1,0 @@
-/gamemode survival
-/gamemode c
-/gamemode creative
-/gamerule doDaylightCycle false
-/tiem set noon
-/time set noon
-/gamerule doDaylightCycle false
-/time set noon
-/weather clear
