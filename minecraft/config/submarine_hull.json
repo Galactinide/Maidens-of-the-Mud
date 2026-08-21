@@ -34025,566 +34025,6 @@
     "maxWaterDepth": 36,
     "implosionChance": 0.78
   },
-  "cookingforblockheads:black_cabinet": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:black_connector": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:black_cooking_table": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "cookingforblockheads:black_counter": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:black_fridge": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:black_kitchen_floor": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:black_oven": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:black_sink": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:blue_cabinet": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:blue_connector": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:blue_cooking_table": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "cookingforblockheads:blue_counter": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:blue_fridge": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:blue_kitchen_floor": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:blue_oven": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:blue_sink": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:brown_cabinet": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:brown_connector": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:brown_cooking_table": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "cookingforblockheads:brown_counter": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:brown_fridge": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:brown_kitchen_floor": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:brown_oven": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:brown_sink": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:cabinet": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:connector": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:cooking_table": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "cookingforblockheads:counter": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:cow_jar": {
-    "maxWaterDepth": 3,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:cutting_board": {
-    "maxWaterDepth": 25,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:cyan_cabinet": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:cyan_connector": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:cyan_cooking_table": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "cookingforblockheads:cyan_counter": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:cyan_fridge": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:cyan_kitchen_floor": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:cyan_oven": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:cyan_sink": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:fruit_basket": {
-    "maxWaterDepth": 25,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:gray_cabinet": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:gray_connector": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:gray_cooking_table": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "cookingforblockheads:gray_counter": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:gray_fridge": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:gray_kitchen_floor": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:gray_oven": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:gray_sink": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:green_cabinet": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:green_connector": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:green_cooking_table": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "cookingforblockheads:green_counter": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:green_fridge": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:green_kitchen_floor": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:green_oven": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:green_sink": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:light_blue_cabinet": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:light_blue_connector": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:light_blue_cooking_table": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "cookingforblockheads:light_blue_counter": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:light_blue_fridge": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:light_blue_kitchen_floor": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:light_blue_oven": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:light_blue_sink": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:light_gray_cabinet": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:light_gray_connector": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:light_gray_cooking_table": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "cookingforblockheads:light_gray_counter": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:light_gray_fridge": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:light_gray_kitchen_floor": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:light_gray_oven": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:light_gray_sink": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:lime_cabinet": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:lime_connector": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:lime_cooking_table": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "cookingforblockheads:lime_counter": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:lime_fridge": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:lime_kitchen_floor": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:lime_oven": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:lime_sink": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:magenta_cabinet": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:magenta_connector": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:magenta_cooking_table": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "cookingforblockheads:magenta_counter": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:magenta_fridge": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:magenta_kitchen_floor": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:magenta_oven": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:magenta_sink": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:milk_jar": {
-    "maxWaterDepth": 3,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:orange_cabinet": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:orange_connector": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:orange_cooking_table": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "cookingforblockheads:orange_counter": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:orange_fridge": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:orange_kitchen_floor": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:orange_oven": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:orange_sink": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:pink_cabinet": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:pink_connector": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:pink_cooking_table": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "cookingforblockheads:pink_counter": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:pink_fridge": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:pink_kitchen_floor": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:pink_oven": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:pink_sink": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:purple_cabinet": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:purple_connector": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:purple_cooking_table": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "cookingforblockheads:purple_counter": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:purple_fridge": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:purple_kitchen_floor": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:purple_oven": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:purple_sink": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:red_cabinet": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:red_connector": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:red_cooking_table": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "cookingforblockheads:red_counter": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:red_fridge": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:red_kitchen_floor": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:red_oven": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:red_sink": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:sink": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:spice_rack": {
-    "maxWaterDepth": 25,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:toaster": {
-    "maxWaterDepth": 75,
-    "implosionChance": 0.55
-  },
-  "cookingforblockheads:tool_rack": {
-    "maxWaterDepth": 25,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:white_cabinet": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:white_connector": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:white_cooking_table": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "cookingforblockheads:white_counter": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:white_fridge": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:white_kitchen_floor": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:white_oven": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:white_sink": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:yellow_cabinet": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:yellow_connector": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:yellow_cooking_table": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "cookingforblockheads:yellow_counter": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
-  "cookingforblockheads:yellow_fridge": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:yellow_kitchen_floor": {
-    "maxWaterDepth": 14,
-    "implosionChance": 0.85
-  },
-  "cookingforblockheads:yellow_oven": {
-    "maxWaterDepth": 201,
-    "implosionChance": 0.05
-  },
-  "cookingforblockheads:yellow_sink": {
-    "maxWaterDepth": 123,
-    "implosionChance": 0.26666668
-  },
   "copycats:copycat_base": {
     "maxWaterDepth": 120,
     "implosionChance": 0.28
@@ -34768,6 +34208,10 @@
   "copycats:wrapped_copycat": {
     "maxWaterDepth": 120,
     "implosionChance": 0.28
+  },
+  "cosmonauticsdeepair:gravity_generator": {
+    "maxWaterDepth": 131,
+    "implosionChance": 0.22
   },
   "create:acacia_window": {
     "maxWaterDepth": 1,
@@ -37989,6 +37433,46 @@
     "maxWaterDepth": 300,
     "implosionChance": 0.05
   },
+  "create_enchantment_industry:blaze_enchanter": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
+  "create_enchantment_industry:blaze_forger": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
+  "create_enchantment_industry:classic_blaze_enchanter": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
+  "create_enchantment_industry:experience": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "create_enchantment_industry:experience_hatch": {
+    "maxWaterDepth": 67,
+    "implosionChance": 0.6
+  },
+  "create_enchantment_industry:experience_lantern": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
+  "create_enchantment_industry:grindstone_drain": {
+    "maxWaterDepth": 67,
+    "implosionChance": 0.6
+  },
+  "create_enchantment_industry:mechanical_grindstone": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "create_enchantment_industry:printer": {
+    "maxWaterDepth": 67,
+    "implosionChance": 0.6
+  },
+  "create_enchantment_industry:super_experience_block": {
+    "maxWaterDepth": 67,
+    "implosionChance": 0.6
+  },
   "create_factory:black_jar": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
@@ -39916,18 +39400,6 @@
   "createadditionallogistics:yellow_tall_seat": {
     "maxWaterDepth": 20,
     "implosionChance": 0.85
-  },
-  "createaerophysicsgantry:belt_wheel": {
-    "maxWaterDepth": 55,
-    "implosionChance": 0.67
-  },
-  "createaerophysicsgantry:physics_gantry_carriage": {
-    "maxWaterDepth": 55,
-    "implosionChance": 0.67
-  },
-  "createaerophysicsgantry:physics_gantry_shaft": {
-    "maxWaterDepth": 55,
-    "implosionChance": 0.67
   },
   "createbigcannons:ap_shell": {
     "maxWaterDepth": 43,
@@ -45046,6 +44518,262 @@
     "implosionChance": 0.85
   },
   "createdeco:zinc_window_pane": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createdieselgenerators:andesite_girder": {
+    "maxWaterDepth": 67,
+    "implosionChance": 0.6
+  },
+  "createdieselgenerators:andesite_girder_encased_shaft": {
+    "maxWaterDepth": 67,
+    "implosionChance": 0.6
+  },
+  "createdieselgenerators:asphalt_block": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createdieselgenerators:asphalt_slab": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createdieselgenerators:asphalt_stairs": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createdieselgenerators:basin_lid": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
+  "createdieselgenerators:biodiesel": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:black_cement": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:black_concrete_encased_fluid_pipe": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createdieselgenerators:blue_cement": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:blue_concrete_encased_fluid_pipe": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createdieselgenerators:brown_cement": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:brown_concrete_encased_fluid_pipe": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createdieselgenerators:bulk_fermenter": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
+  "createdieselgenerators:burner": {
+    "maxWaterDepth": 67,
+    "implosionChance": 0.6
+  },
+  "createdieselgenerators:canister": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
+  "createdieselgenerators:chemical_turret": {
+    "maxWaterDepth": 67,
+    "implosionChance": 0.6
+  },
+  "createdieselgenerators:chip_wood_beam": {
+    "maxWaterDepth": 20,
+    "implosionChance": 0.85
+  },
+  "createdieselgenerators:chip_wood_block": {
+    "maxWaterDepth": 23,
+    "implosionChance": 0.85
+  },
+  "createdieselgenerators:chip_wood_slab": {
+    "maxWaterDepth": 23,
+    "implosionChance": 0.85
+  },
+  "createdieselgenerators:chip_wood_stairs": {
+    "maxWaterDepth": 33,
+    "implosionChance": 0.8
+  },
+  "createdieselgenerators:crude_oil": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:cyan_cement": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:cyan_concrete_encased_fluid_pipe": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createdieselgenerators:diesel": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:diesel_engine": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
+  "createdieselgenerators:distillation_tank": {
+    "maxWaterDepth": 67,
+    "implosionChance": 0.6
+  },
+  "createdieselgenerators:ethanol": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:gasoline": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:gray_cement": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:gray_concrete_encased_fluid_pipe": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createdieselgenerators:green_cement": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:green_concrete_encased_fluid_pipe": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createdieselgenerators:huge_diesel_engine": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
+  "createdieselgenerators:large_diesel_engine": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
+  "createdieselgenerators:light_blue_cement": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:light_blue_concrete_encased_fluid_pipe": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createdieselgenerators:light_gray_cement": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:light_gray_concrete_encased_fluid_pipe": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createdieselgenerators:lime_cement": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:lime_concrete_encased_fluid_pipe": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createdieselgenerators:magenta_cement": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:magenta_concrete_encased_fluid_pipe": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createdieselgenerators:oil_barrel": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
+  "createdieselgenerators:orange_cement": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:orange_concrete_encased_fluid_pipe": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createdieselgenerators:pink_cement": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:pink_concrete_encased_fluid_pipe": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createdieselgenerators:plant_oil": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:powered_engine_shaft": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createdieselgenerators:pumpjack_bearing": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
+  "createdieselgenerators:pumpjack_bearing_b": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
+  "createdieselgenerators:pumpjack_crank": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
+  "createdieselgenerators:pumpjack_head": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
+  "createdieselgenerators:pumpjack_hole": {
+    "maxWaterDepth": 67,
+    "implosionChance": 0.6
+  },
+  "createdieselgenerators:purple_cement": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:purple_concrete_encased_fluid_pipe": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createdieselgenerators:red_cement": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:red_concrete_encased_fluid_pipe": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createdieselgenerators:sheet_metal_panel": {
+    "maxWaterDepth": 67,
+    "implosionChance": 0.6
+  },
+  "createdieselgenerators:white_cement": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:white_concrete_encased_fluid_pipe": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createdieselgenerators:yellow_cement": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createdieselgenerators:yellow_concrete_encased_fluid_pipe": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
   },
@@ -51384,6 +51112,150 @@
   "createrailwaysnavigator:train_station_clock": {
     "maxWaterDepth": 120,
     "implosionChance": 0.28
+  },
+  "createthrusters:advanced_contraption_controller": {
+    "maxWaterDepth": 46,
+    "implosionChance": 0.725
+  },
+  "createthrusters:advanced_navigation_table": {
+    "maxWaterDepth": 46,
+    "implosionChance": 0.725
+  },
+  "createthrusters:aileron_bearing": {
+    "maxWaterDepth": 64,
+    "implosionChance": 0.615
+  },
+  "createthrusters:aileron_bearing_link": {
+    "maxWaterDepth": 64,
+    "implosionChance": 0.615
+  },
+  "createthrusters:alternator": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createthrusters:analogue_contraption_controller": {
+    "maxWaterDepth": 46,
+    "implosionChance": 0.725
+  },
+  "createthrusters:analogue_joystick": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.78
+  },
+  "createthrusters:andesite_cable": {
+    "maxWaterDepth": 9,
+    "implosionChance": 0.85
+  },
+  "createthrusters:bi_directional_gearshift": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createthrusters:bidirectional_gearbox": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createthrusters:claw": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createthrusters:contraption_network_linker_plane": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createthrusters:copycat_double_button": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.78
+  },
+  "createthrusters:double_button": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.78
+  },
+  "createthrusters:entity_launcher_anchor": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createthrusters:fuel_oxidizer": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createthrusters:gyro_redstone_bridge": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.78
+  },
+  "createthrusters:gyroscope_link": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.78
+  },
+  "createthrusters:industrial_motor": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createthrusters:launcher_endpoint": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createthrusters:physics_gantry_belt_wheel": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createthrusters:physics_gantry_carriage": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createthrusters:physics_gantry_shaft": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createthrusters:powered_zipline": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createthrusters:rope_knot": {
+    "maxWaterDepth": 3,
+    "implosionChance": 0.85
+  },
+  "createthrusters:scissor_piston": {
+    "maxWaterDepth": 64,
+    "implosionChance": 0.615
+  },
+  "createthrusters:scissor_piston_arm": {
+    "maxWaterDepth": 9,
+    "implosionChance": 0.85
+  },
+  "createthrusters:scissor_piston_link": {
+    "maxWaterDepth": 64,
+    "implosionChance": 0.615
+  },
+  "createthrusters:shipping_manifest": {
+    "maxWaterDepth": 9,
+    "implosionChance": 0.85
+  },
+  "createthrusters:thruster": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createthrusters:thruster_bearing": {
+    "maxWaterDepth": 64,
+    "implosionChance": 0.615
+  },
+  "createthrusters:thruster_bearing_link": {
+    "maxWaterDepth": 64,
+    "implosionChance": 0.615
+  },
+  "createthrusters:variable_transmission": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "createthrusters:vector_bearing": {
+    "maxWaterDepth": 64,
+    "implosionChance": 0.615
+  },
+  "createthrusters:vector_bearing_link": {
+    "maxWaterDepth": 64,
+    "implosionChance": 0.615
+  },
+  "createthrusters:virtual_orientation_source": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.78
   },
   "displaydelight:acd_baked_pollock_with_carrots": {
     "maxWaterDepth": 1,
@@ -59444,6 +59316,10 @@
   "interiors:yellow_floor_chair": {
     "maxWaterDepth": 20,
     "implosionChance": 0.85
+  },
+  "just_sink:sink": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
   },
   "large_meals:mushroom_pot_pie_block": {
     "maxWaterDepth": 8,
@@ -68617,6 +68493,166 @@
     "maxWaterDepth": 52,
     "implosionChance": 0.68833333
   },
+  "rocketnautics:booster_thruster": {
+    "maxWaterDepth": 161,
+    "implosionChance": 0.05
+  },
+  "rocketnautics:creative_thruster": {
+    "maxWaterDepth": 161,
+    "implosionChance": 0.05
+  },
+  "rocketnautics:deepslate_titanium_ore": {
+    "maxWaterDepth": 73,
+    "implosionChance": 0.56
+  },
+  "rocketnautics:engine_nozzle": {
+    "maxWaterDepth": 161,
+    "implosionChance": 0.05
+  },
+  "rocketnautics:engine_pipes": {
+    "maxWaterDepth": 67,
+    "implosionChance": 0.6
+  },
+  "rocketnautics:hologram_block": {
+    "maxWaterDepth": 161,
+    "implosionChance": 0.05
+  },
+  "rocketnautics:hose_anchor": {
+    "maxWaterDepth": 161,
+    "implosionChance": 0.05
+  },
+  "rocketnautics:lunar_aged_basalt": {
+    "maxWaterDepth": 37,
+    "implosionChance": 0.7766667
+  },
+  "rocketnautics:lunar_fragmented_rock": {
+    "maxWaterDepth": 10,
+    "implosionChance": 0.85
+  },
+  "rocketnautics:lunar_loose_regolith": {
+    "maxWaterDepth": 10,
+    "implosionChance": 0.85
+  },
+  "rocketnautics:lunar_moss_scraggly": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "rocketnautics:lunar_moss_short": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "rocketnautics:lunar_moss_stiff": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "rocketnautics:lunar_regolith": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "rocketnautics:lunar_regolith_brick": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "rocketnautics:lunar_regolith_brick_slab": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "rocketnautics:lunar_regolith_brick_stairs": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "rocketnautics:lunar_regolith_slab": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "rocketnautics:lunar_regolith_stairs": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "rocketnautics:lunar_rock": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "rocketnautics:lunar_rock_smooth": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "rocketnautics:lunar_rock_spiky": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "rocketnautics:lunar_rock_tall": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "rocketnautics:lunar_shattered_regolith": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "rocketnautics:lunar_shattered_regolith_slab": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "rocketnautics:lunar_shattered_regolith_stairs": {
+    "maxWaterDepth": 6,
+    "implosionChance": 0.85
+  },
+  "rocketnautics:magnetic_stabilizer": {
+    "maxWaterDepth": 161,
+    "implosionChance": 0.05
+  },
+  "rocketnautics:raw_titanium_block": {
+    "maxWaterDepth": 98,
+    "implosionChance": 0.41333333
+  },
+  "rocketnautics:rcs_thruster": {
+    "maxWaterDepth": 161,
+    "implosionChance": 0.05
+  },
+  "rocketnautics:rocket_thruster": {
+    "maxWaterDepth": 161,
+    "implosionChance": 0.05
+  },
+  "rocketnautics:separator": {
+    "maxWaterDepth": 161,
+    "implosionChance": 0.05
+  },
+  "rocketnautics:separator_charge": {
+    "maxWaterDepth": 161,
+    "implosionChance": 0.05
+  },
+  "rocketnautics:separator_shaft": {
+    "maxWaterDepth": 161,
+    "implosionChance": 0.05
+  },
+  "rocketnautics:sputnik": {
+    "maxWaterDepth": 161,
+    "implosionChance": 0.05
+  },
+  "rocketnautics:thruster_mount": {
+    "maxWaterDepth": 161,
+    "implosionChance": 0.05
+  },
+  "rocketnautics:titanium_alloy_block": {
+    "maxWaterDepth": 161,
+    "implosionChance": 0.05
+  },
+  "rocketnautics:titanium_block": {
+    "maxWaterDepth": 161,
+    "implosionChance": 0.05
+  },
+  "rocketnautics:titanium_casing": {
+    "maxWaterDepth": 30,
+    "implosionChance": 0.82
+  },
+  "rocketnautics:titanium_ore": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "rocketnautics:vector_thruster": {
+    "maxWaterDepth": 161,
+    "implosionChance": 0.05
+  },
   "sable_schematic_api:blueprint_cannon": {
     "maxWaterDepth": 105,
     "implosionChance": 0.37
@@ -70129,25 +70165,9 @@
     "maxWaterDepth": 8,
     "implosionChance": 0.85
   },
-  "supplementaries:brittlestone": {
-    "maxWaterDepth": 39,
-    "implosionChance": 0.76666665
-  },
-  "supplementaries:brittlestone_bricks": {
-    "maxWaterDepth": 50,
-    "implosionChance": 0.7
-  },
-  "supplementaries:brittlestone_bricks_slab": {
-    "maxWaterDepth": 50,
-    "implosionChance": 0.7
-  },
-  "supplementaries:brittlestone_bricks_stairs": {
-    "maxWaterDepth": 50,
-    "implosionChance": 0.7
-  },
-  "supplementaries:brittlestone_bricks_wall": {
-    "maxWaterDepth": 50,
-    "implosionChance": 0.7
+  "supplementaries:breeze_rod": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
   },
   "supplementaries:bubble_block": {
     "maxWaterDepth": 1,

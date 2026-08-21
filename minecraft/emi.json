@@ -1,8 +1,20 @@
 {
-  "favorites": [],
+  "favorites": [
+    {
+      "stack": "item:create:shaft"
+    },
+    {
+      "stack": "item:aeronautics:levitite"
+    }
+  ],
   "lookup_history": [
+    "item:createpropulsion:tempered_wing",
+    "item:createpropulsion:wing",
+    "item:sophisticatedstorage:shulker_box",
+    "item:minecraft:shulker_shell",
+    "item:create:refined_radiance_casing",
+    "item:createcasing:refined_radiance_encased_chain_drive",
     "item:simulated:linked_typewriter",
-    "item:drivebywiretypewriter:typewriter_hub",
     "item:frequency:andesite_symbol_empty",
     "item:frequency:brass_symbol_empty",
     "item:minecraft:dripstone_block",
