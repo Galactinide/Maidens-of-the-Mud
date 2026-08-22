@@ -34,4 +34,5 @@ minecraft/emi.json
 !minecraft/config/create-server.toml
 !minecraft/config/carryon-common.toml
 !minecraft/config/inventoryprofilesnext/inventoryprofiles.json
+!minecraft/config/artifacts/items.toml
 minecraft/emi.json
