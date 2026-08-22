@@ -9,14 +9,14 @@
   "humanizationPitch": 0.02,
   "humanizationLength": 0.04,
   "mobInstrumentFactors": {
-    "minecraft:zombie": 0,
-    "minecraft:husk": 0,
-    "minecraft:piglin": 0,
-    "minecraft:zombified_piglin": 0,
-    "minecraft:wither_skeleton": 0,
-    "minecraft:skeleton": 0,
-    "minecraft:pillager": 0,
-    "minecraft:piglin_brute": 0
+    "minecraft:zombie": 0.0,
+    "minecraft:husk": 0.0,
+    "minecraft:piglin": 0.0,
+    "minecraft:zombified_piglin": 0.0,
+    "minecraft:wither_skeleton": 0.0,
+    "minecraft:skeleton": 0.0,
+    "minecraft:pillager": 0.0,
+    "minecraft:piglin_brute": 0.0
   },
   "mobInstrumentDropFactor": 0.085,
   "showOtherPlayersMelodies": true,
