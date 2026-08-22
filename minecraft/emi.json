@@ -8,6 +8,26 @@
     }
   ],
   "lookup_history": [
+    {
+      "type": "fluid",
+      "id": "createendergateway:dormant_ender_solution",
+      "amount": 100
+    },
+    "item:minecraft:nether_wart",
+    {
+      "type": "fluid",
+      "id": "createendergateway:active_ender_solution",
+      "amount": 100
+    },
+    "item:createendergateway:saturated_eye_fragment",
+    "item:createendergateway:synthetic_eye_fragment",
+    "item:createendergateway:synthetic_eye",
+    "item:complicated_bees:mellarium_panel",
+    "item:complicated_bees:gyrofuge_panel",
+    "item:complicated_bees:gyrofuge_base",
+    "item:complicated_bees:gyrofuge_basic_speed_unit",
+    "item:complicated_bees:gyrofuge_speed_unit",
+    "item:complicated_bees:gyrofuge_advanced_speed_unit",
     "item:createpropulsion:tempered_wing",
     "item:createpropulsion:wing",
     "item:sophisticatedstorage:shulker_box",
