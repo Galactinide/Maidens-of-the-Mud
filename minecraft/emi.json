@@ -8,6 +8,7 @@
     }
   ],
   "lookup_history": [
+    "item:createbigpharma:pill{\"createbigpharma:compound\":\"createbigpharma:melatonin\",\"createbigpharma:compound_color\":9076168,\"createbigpharma:compound_name\":\"Melatonin\"}",
     {
       "type": "fluid",
       "id": "createendergateway:dormant_ender_solution",
