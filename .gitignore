@@ -27,3 +27,10 @@ minecraft/XaeroWaypoints_BACKUP240807/New World/config.txt
 /minecraft/midi_files
 /minecraft/config
 minecraft/emi.json
+!minecraft/config/sophisticatedbackpacks-server.toml
+!minecraft/config/lootr-common.toml
+!minecraft/config/immersive_melodies.json
+!minecraft/config/creeper_firework-common.toml
+!minecraft/config/create-server.toml
+!minecraft/config/carryon-common.toml
+!minecraft/config/inventoryprofilesnext/inventoryprofiles.json
