@@ -2,7 +2,7 @@
 	#Will creeper's active-explosion turn into firework?
 	CREEPER_EXPLODE_INTO_FIREWORK = true
 	#Will the active-explosion firework effect hurt nearby creature?
-	CREEPER_FIREWORK_HURT_CREATURE = false
+	CREEPER_FIREWORK_HURT_CREATURE = true
 	#Will the active-explosion firework destroy nearby environment just like creeper normally exploding?
 	CREEPER_FIREWORK_DESTROY_BLOCK = false
 	#The probability of creeper turning into firework when actively explodes.
