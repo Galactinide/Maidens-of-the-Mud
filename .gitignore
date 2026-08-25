@@ -26,7 +26,6 @@ minecraft/XaeroWaypoints_BACKUP240807/New World/config.txt
 /minecraft/.cache
 /minecraft/midi_files
 /minecraft/config
-minecraft/emi.json
 !minecraft/config/sophisticatedbackpacks-server.toml
 !minecraft/config/lootr-common.toml
 !minecraft/config/immersive_melodies.json
@@ -34,9 +33,11 @@ minecraft/emi.json
 !minecraft/config/create-server.toml
 !minecraft/config/carryon-common.toml
 !minecraft/config/inventoryprofilesnext/inventoryprofiles.json
+!minecraft/config/artifacts
 !minecraft/config/artifacts/items.toml
-!minecraft/config/bclib/client.json
 minecraft/emi.json
 /minecraft/particular_cache
 !minecraft/config/gravestone-server.toml
 /minecraft/chunksmith/lod
+!minecraft/config/bclib
+!minecraft/config/bclib/client.json
