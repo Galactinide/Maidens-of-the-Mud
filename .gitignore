@@ -35,7 +35,7 @@ minecraft/emi.json
 !minecraft/config/carryon-common.toml
 !minecraft/config/inventoryprofilesnext/inventoryprofiles.json
 !minecraft/config/artifacts/items.toml
-!minecraft/config/bclib
+!minecraft/config/bclib/client.json
 minecraft/emi.json
 /minecraft/particular_cache
 !minecraft/config/gravestone-server.toml
