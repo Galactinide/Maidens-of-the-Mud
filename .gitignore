@@ -29,3 +29,8 @@ minecraft/emi.json
 /minecraft/particular_cache
 /minecraft/chunksmith/lod
 /minecraft/backups
+/minecraft/config/inventoryprofilesnext
+minecraft/config/flywheel-client.toml
+minecraft/config/flywheel-client-1.toml.bak
+minecraft/config/l2configs/l2core-client-1.toml.bak
+
