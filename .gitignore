@@ -19,7 +19,6 @@ minecraft/ponders_watched.json
 minecraft/usernamecache.json
 minecraft/usercache.json
 /minecraft/xaero
-minecraft/XaeroWaypoints_BACKUP240807/New World/config.txt
 /minecraft/dynamic-resource-pack-cache
 /minecraft/logs
 /minecraft/crash-reports
@@ -72,3 +71,4 @@ minecraft/config/xaero/minimap/client.cfg
 minecraft/config/xaero/world-map/client.cfg
 /minecraft/config/xaero/world-map/profiles
 /minecraft/config/xaero/world-map/server_profiles
+/minecraft/XaeroWaypoints_BACKUP240807
