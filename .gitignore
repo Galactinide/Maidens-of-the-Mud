@@ -51,11 +51,6 @@ minecraft/config/iris.properties
 minecraft/config/figura.json
 minecraft/config/freecam.json5
 minecraft/config/lithostitched.json
-minecraft/config/NoChatReports/NCR-Client.json
-minecraft/config/NoChatReports/NCR-Common.json
-minecraft/config/NoChatReports/NCR-Encryption.json
-minecraft/config/NoChatReports/NCR-ServerPreferences.json
-minecraft/config/NoChatReports/README.md
 minecraft/config/snowrealmagic-client.yaml
 minecraft/config/sodium-extra-options.json
 minecraft/config/sodium-fingerprint.json
@@ -72,3 +67,4 @@ minecraft/config/xaero/world-map/client.cfg
 /minecraft/config/xaero/world-map/profiles
 /minecraft/config/xaero/world-map/server_profiles
 /minecraft/XaeroWaypoints_BACKUP240807
+/minecraft/config/NoChatReports
