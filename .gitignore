@@ -34,3 +34,10 @@ minecraft/config/flywheel-client.toml
 minecraft/config/flywheel-client-1.toml.bak
 minecraft/config/l2configs/l2core-client-1.toml.bak
 
+minecraft/config/iris.properties
+minecraft/config/solonion-client.json
+/minecraft/config/spark
+minecraft/config/creativecore-client.json
+minecraft/config/emi_ores-client.json
+/minecraft/config/crash_assistant/crash_assistant_localization_overrides
+minecraft/config/cubes_without_borders.json
