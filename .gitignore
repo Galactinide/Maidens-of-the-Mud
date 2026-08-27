@@ -70,3 +70,4 @@ minecraft/config/xaero/world-map/client.cfg
 /minecraft/config/NoChatReports
 minecraft/config/ftbchunks-client.snbt
 /minecraft/cache/c2me-dfc
+minecraft/config/voicechat/voicechat-client.properties
