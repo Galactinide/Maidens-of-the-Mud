@@ -71,3 +71,6 @@ minecraft/config/xaero/world-map/client.cfg
 minecraft/config/ftbchunks-client.snbt
 /minecraft/cache/c2me-dfc
 minecraft/config/voicechat/voicechat-client.properties
+minecraft/mods/Panoptic-1.08a-NeoForge-1.21.1.jar
+minecraft/config/panoptic-common.toml
+/minecraft/panoptic
