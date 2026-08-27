@@ -74,3 +74,4 @@ minecraft/config/voicechat/voicechat-client.properties
 minecraft/mods/Panoptic-1.08a-NeoForge-1.21.1.jar
 minecraft/config/panoptic-common.toml
 /minecraft/panoptic
+/minecraft/config/world_preview
