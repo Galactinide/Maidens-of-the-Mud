@@ -17,5 +17,9 @@ event.remove({ id: 'create:milling/limestone'})
 //Create Aquatic Ambitions Remove Trident Recipe
 event.remove({ id: 'create_aquatic_ambitions:crafting/materials/trident'})
 
+//Create Nuclear / Create Big Cannons - Remove Steel
+event.remove({ id: 'createbigcannons:mixing/alloy_steel'})
+event.remove({ id: 'createnuclear:mixing/steel'})
+
 //Closing Brackets
 })
