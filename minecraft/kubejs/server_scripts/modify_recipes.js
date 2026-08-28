@@ -1,7 +1,7 @@
 ServerEvents.recipes(event =>{
 
     //Make All Knives Unbreakable
-    const knifeunbreak = (kbknife) => {
+    /*const knifeunbreak = (kbknife) => {
         event.replaceOutput(
         {output:kbknife},
         kbknife,
@@ -19,8 +19,30 @@ ServerEvents.recipes(event =>{
         knifeunbreak('twilightdelight:steeleaf_knife')
         knifeunbreak('twilightdelight:knightmetal_knife')
         knifeunbreak('twilightdelight:fiery_knife')
-    }
+    }*/
+    
+    //Make all knives unbreakable take 2
+    const FDKnives = [
+        'create_things_and_misc:copper_knife',
+        'create_things_and_misc:zinc_knife',
+        'create_things_and_misc:brass_knife',
+        'farmersdelight:iron_knife',
+        'farmersdelight:diamond_knife',
+        'farmersdelight:netherite_knife',
+        'farmersdelight:golden_knife',
+        'twilightdelight:ironwood_knife',
+        'twilightdelight:steeleaf_knife',
+        'twilightdelight:knightmetal_knife',
+        'twilightdelight:fiery_knife'
+        ]
 
+        FDKnives.forEach(FDKnives => {
+            event.replaceOutput(
+                {output:'$==={FDKnives}==='},
+                '$==={FDKnives}===',
+                Item.of('$==={FDKnives}===').enchant('minecraft:unbreaking', 10)
+            )
+            })
 
     //{Unbreakable: 1b}
     //make iron knife sharp (test: works)
