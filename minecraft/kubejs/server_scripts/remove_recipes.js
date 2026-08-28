@@ -4,6 +4,7 @@ ServerEvents.recipes(event => {
 event.remove({ id: 'hexerei:mahogany_broom_from_mixing_cauldron'})
 event.remove({ id: 'hexerei:witch_hazel_broom_from_mixing_cauldron'})
 event.remove({ id: 'hexerei:willow_broom_from_mixing_cauldron'})
+event.remove({ id: 'hexerei:crystal_ball_from_mixing_cauldron'})
 
 //Enchanted
 event.remove({ id: 'enchanted:poppet_shelf'})

@@ -121,6 +121,12 @@ event.shaped(
     
 )
 
+//Create Casings
+event.recipes.create.deploying('create:shadow_steel_casing', ['betterend:dragon_tree_stripped_log', 'tfmg:steel_ingot'])
+event.recipes.create.deploying('create:shadow_steel_casing', ['betterend:dragon_tree_stripped_bark', 'tfmg:steel_ingot'])
+event.recipes.create.deploying('create:refined_radiance_casing', ['betterend:lacugrove_stripped_bark', 'tfmg:steel_ingot'])
+event.recipes.create.deploying('create:refined_radiance_casing', ['betterend:lacugrove_stripped_log', 'tfmg:steel_ingot'])
+
 //Create Limestone Crushing Merge
 //Create Limestone
     event.recipes.create.crushing(
