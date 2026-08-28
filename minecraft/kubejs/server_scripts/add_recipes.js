@@ -1,44 +1,47 @@
-//Mahogany Broom (broken)
 ServerEvents.recipes(event => {
+
+    //Mahogany Broom (broken)
     event.custom({
-        "type": 'hexerei:mixingcauldron',
-        "liquid": {
-            "fluid": 'hexerei:blood_fluid'
+  "type": "hexerei:mixingcauldron",
+  "fluid": {
+    "id": "minecraft:water",
+    "amount": 1000
+  },
+    "ingredients": [
+        {
+            "item": 'minecraft:netherite_ingot'
         },
-        "ingredients": [
-            {
-                "item": 'minecraft:netherite_ingot'
-            },
-            {
-                "item": 'hexerei:mahogany_log'
-            },
-            {
-                "item": 'enchanted:demonic_blood'
-            },
-            {
-                "tag": 'mulch:mandrake'
-            },
-            {
-                "item": 'enchanted:flying_ointment'
-            },
-            {
-                "tag": 'mulch:mandrake'
-            },
-            {
-                "item": 'enchanted:demonic_blood'
-            },
-            {
-                "item": 'hexerei:mahogany_log'
-            }
-        ],
-        "output": {
-            "item": 'hexerei:mahogany_broom'
+        {
+            "item": 'hexerei:mahogany_log'
         },
-        "liquidOutput": {
-            "fluid": 'hexerei:blood_fluid'
+        {
+            "item": 'enchanted:demonic_blood'
         },
-        "fluidLevelsConsumed": 1000
-    })
+        {
+            "tag": 'mulch:mandrake'
+        },
+        {
+            "item": 'enchanted:flying_ointment'
+        },
+        {
+            "tag": 'mulch:mandrake'
+        },
+        {
+            "item": 'enchanted:demonic_blood'
+        },
+        {
+            "item": 'hexerei:mahogany_log'
+        }
+    ],
+  "output": {
+    "id": "hexerei:mahogany_broom"
+  },
+
+  "fluidOutput": {
+    "id": "hexerei:blood_fluid",
+    "amount": 1000
+  }
+})
 
 //Create Limestone Crushing Merge
 //Create Limestone
