@@ -22,27 +22,49 @@ ServerEvents.recipes(event =>{
     }*/
     
     //Make all knives unbreakable take 2
+    const CTAMKnives = [
+        'copper_knife',
+        'zinc_knife',
+        'brass_knife'
+    ]
+    
     const FDKnives = [
-        'create_things_and_misc:copper_knife',
-        'create_things_and_misc:zinc_knife',
-        'create_things_and_misc:brass_knife',
-        'farmersdelight:iron_knife',
-        'farmersdelight:diamond_knife',
-        'farmersdelight:netherite_knife',
-        'farmersdelight:golden_knife',
-        'twilightdelight:ironwood_knife',
-        'twilightdelight:steeleaf_knife',
-        'twilightdelight:knightmetal_knife',
-        'twilightdelight:fiery_knife'
-        ]
+        'iron_knife',
+        'diamond_knife',
+        'netherite_knife',
+        'golden_knife'
+    ]
 
-        FDKnives.forEach(FDKnives => {
-            event.replaceOutput(
-                {output:'$==={FDKnives}==='},
-                '$==={FDKnives}===',
-                Item.of('$==={FDKnives}===').enchant('minecraft:unbreaking', 10)
-            )
-            })
+    const TDKnives = [
+        'ironwood_knife',
+        'steeleaf_knife',
+        'knightmetal_knife',
+        'fiery_knife'
+    ]
+    
+    CTAMKnives.forEach(CTAMKnives => {
+        event.replaceOutput(
+            {output:'create_things_and_misc:$==={CTAMKnives}==='},
+            'create_things_and_misc:$==={CTAMKnives}===',
+            Item.of('create_things_and_misc:$==={CTAMKnives}===').enchant('minecraft:unbreaking', 10)
+        )
+    })
+
+    FDKnives.forEach(FDKnives => {
+        event.replaceOutput(
+            {output:'farmersdelight:$==={FDKnives}==='},
+            'farmersdelight:$==={FDKnives}===',
+            Item.of('farmersdelight:$==={FDKnives}===').enchant('minecraft:unbreaking', 10)
+        )
+    })
+
+    TDKnives.forEach(TDKnives => {
+        event.replaceOutput(
+            {output:'twilightdelight:$==={TDKnives}==='},
+            'twilightdelight:$==={TDKnives}===',
+            Item.of('twilightdelight:$==={TDKnives}===').enchant('minecraft:unbreaking', 10)
+        )
+    })
 
     //{Unbreakable: 1b}
     //make iron knife sharp (test: works)
