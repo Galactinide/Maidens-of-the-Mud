@@ -1,27 +1,6 @@
 ServerEvents.recipes(event =>{
 
     //Make All Knives Unbreakable
-    /*const knifeunbreak = (kbknife) => {
-        event.replaceOutput(
-        {output:kbknife},
-        kbknife,
-        Item.of(kbknife).enchant('minecraft:unbreaking',10)
-        )
-        knifeunbreak('create_things_and_misc:copper_knife')
-        knifeunbreak('create_things_and_misc:zinc_knife')
-        knifeunbreak('create_things_and_misc:brass_knife')
-        knifeunbreak('farmersdelight:flint_knife')
-        knifeunbreak('farmersdelight:iron_knife')
-        knifeunbreak('farmersdelight:diamond_knife')
-        knifeunbreak('farmersdelight:netherite_knife')
-        knifeunbreak('farmersdelight:golden_knife')
-        knifeunbreak('twilightdelight:ironwood_knife')
-        knifeunbreak('twilightdelight:steeleaf_knife')
-        knifeunbreak('twilightdelight:knightmetal_knife')
-        knifeunbreak('twilightdelight:fiery_knife')
-    }*/
-    
-    //Make all knives unbreakable take 2
     const FDKnives = [
         'create_things_and_misc:copper_knife',
         'create_things_and_misc:zinc_knife',
@@ -36,7 +15,7 @@ ServerEvents.recipes(event =>{
         'twilightdelight:fiery_knife'
         ]
 
-        //unbreakable tag
+        //unbreakable tag (finally working)
         FDKnives.forEach(knives => {
             event.replaceOutput(
                 {output:knives},
