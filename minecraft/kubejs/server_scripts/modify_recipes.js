@@ -36,22 +36,23 @@ ServerEvents.recipes(event =>{
         'twilightdelight:fiery_knife'
         ]
 
+        //unbreakable tag
         FDKnives.forEach(knives => {
+            event.replaceOutput(
+                {output:knives},
+                knives,
+                Item.of(knives+"[minecraft:unbreakable={}]")
+            )
+            })
+
+        //enchant for unbreakable (confirmed working)
+        /*FDKnives.forEach(knives => {
             event.replaceOutput(
                 {output:knives},
                 knives,
                 Item.of(knives).enchant('minecraft:unbreaking', 10)
             )
-            })
-
-    //{Unbreakable: 1b}
-    //make iron knife sharp (test: works)
-    /*event.replaceOutput(
-        {output:'farmersdelight:iron_knife'},
-        'farmersdelight:iron_knife',
-        Item.of('farmersdelight:iron_knife').enchant('minecraft:unbreaking',10)
-    )*/
-    
+            })*/
 
 //Closing Brackets
 })
