@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-    //Mahogany Broom (broken)
+    //Mahogany Broom (fixxed)
     event.custom({
   "type": "hexerei:mixingcauldron",
   "fluid": {
@@ -8,30 +8,14 @@ ServerEvents.recipes(event => {
     "amount": 1000
   },
     "ingredients": [
-        {
-            "item": 'minecraft:netherite_ingot'
-        },
-        {
-            "item": 'hexerei:mahogany_log'
-        },
-        {
-            "item": 'enchanted:demonic_blood'
-        },
-        {
-            "tag": 'mulch:mandrake'
-        },
-        {
-            "item": 'enchanted:flying_ointment'
-        },
-        {
-            "tag": 'mulch:mandrake'
-        },
-        {
-            "item": 'enchanted:demonic_blood'
-        },
-        {
-            "item": 'hexerei:mahogany_log'
-        }
+        { "item": 'minecraft:netherite_ingot' },
+        { "item": 'hexerei:mahogany_log' },
+        { "item": 'enchanted:demonic_blood' },
+        { "tag": 'mulch:mandrake' },
+        { "item": 'enchanted:flying_ointment' },
+        { "tag": 'mulch:mandrake' },
+        { "item": 'enchanted:demonic_blood' },
+        { "item": 'hexerei:mahogany_log' }
     ],
   "output": {
     "id": "hexerei:mahogany_broom"
@@ -42,6 +26,100 @@ ServerEvents.recipes(event => {
     "amount": 1000
   }
 })
+
+    //Witch Hazel Broom
+    event.custom({
+  "type": "hexerei:mixingcauldron",
+  "fluid": {
+    "id": "minecraft:water",
+    "amount": 1000
+  },
+    "ingredients": [
+        { "item": 'enchanted:attuned_stone' },
+        { "item": 'hexerei:witch_hazel_log' },
+        { "item": 'enchanted:breath_of_the_goddess' },
+        { "item": 'enchanted:wool_of_bat' },
+        { "tag": 'mulch:mandrake' },
+        { "item": 'enchanted:wool_of_bat' },
+        { "item": 'enchanted:exhale_of_the_horned_one' },
+        { "item": 'hexerei:witch_hazel_log' }
+    ],
+  "output": {
+    "id": "hexerei:witch_hazel_broom"
+  },
+
+  "fluidOutput": {
+    "id": "hexerei:blood_fluid",
+    "amount": 1000
+  }
+})
+
+//Willow Broom
+    event.custom({
+  "type": "hexerei:mixingcauldron",
+  "fluid": {
+    "id": "minecraft:water",
+    "amount": 1000
+  },
+    "ingredients": [
+        { "item": 'hexerei:blood_bottle' },
+        { "item": 'hexerei:willow_log' },
+        { "item": 'minecraft:gold_block' },
+        { "tag": 'mulch:mandrake' },
+        { "item": 'enchanted:whiff_of_magic' },
+        { "tag": 'mulch:mandrake' },
+        { "item": 'minecraft:gold_block' },
+        { "item": 'hexerei:willow_log' }
+    ],
+  "output": {
+    "id": "hexerei:willow_broom"
+  },
+
+  "fluidOutput": {
+    "id": "minecraft:water",
+    "amount": 1000
+  }
+})
+
+//Crystal ball
+    event.custom({
+  "type": "hexerei:mixingcauldron",
+  "fluid": {
+    "id": "minecraft:lava",
+    "amount": 250
+  },
+    "ingredients": [
+        { "item": 'enchanted:attuned_stone' },
+        { "tag": 'c:glass_blocks/colorless' },
+        { "tag": 'c:glass_blocks/colorless' },
+        { "tag": 'c:glass_blocks/colorless' },
+        { "item": 'minecraft:stone' },
+        { "tag": 'c:glass_blocks/colorless' },
+        { "tag": 'c:glass_blocks/colorless' },
+        { "tag": 'c:glass_blocks/colorless' }
+    ],
+  "output": {
+    "id": "hexerei:crystal_ball"
+  },
+  'heatRequirement': "heated"
+})
+
+//Poppet Shelf
+event.shaped(
+    Item.of('enchanted:poppet_shelf'),
+    [
+        'ABA',
+        'CDC',
+        'ACA'
+    ],
+    {
+        'A': 'enchanted:attuned_stone',
+        'B': 'hexerei:selenite_shard',
+        'C': 'minecraft:dark_oak_planks',
+        'D': 'minecraft:green_wool'
+    }
+    
+)
 
 //Create Limestone Crushing Merge
 //Create Limestone
