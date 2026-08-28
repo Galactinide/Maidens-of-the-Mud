@@ -11,5 +11,8 @@ event.remove({ id: 'create:crushing/limestone'})
 event.remove({ id: 'garnished:integration/create_aquatic_ambitions/crushed_salt_crushing'})
 event.remove({ id: 'create:milling/limestone'})
 
+//Create Aquatic Ambitions Remove Trident Recipe
+event.remove({ id: 'create_aquatic_ambitions:crafting/materials/trident'})
+
 //Closing Brackets
 })
