@@ -77,5 +77,21 @@ ServerEvents.recipes(event => {
         ],
         'quark:limestone'
     )
+
+//Quark Create Limestone Switcher
+    event.shapeless(
+        Item.of('quark:limestone'),
+        [
+            'create:limestone'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('create:limestone'),
+        [
+            'quark:limestone'
+        ]
+    )
+
 //Closing Brackets
 })
