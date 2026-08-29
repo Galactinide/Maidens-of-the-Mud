@@ -233,5 +233,15 @@ TwilightHollowLogTypes.forEach(LogType => {
     TwilightHollowLogs('twilightforest:hollow_'+LogType+'_log','twilightforest:'+LogType+'_log')
 })
 
+//Create Aquatic Ambitions - haunt spiky shells into turtle scutes
+event.haunting('minecraft:turtle_scute','create_aquatic_ambitions:spiky_shell')
+
+//Create Aquatic Ambitions - Bulk End spiky shells into shulker shells
+event.custom({
+    type: 'create_dragons_plus:ending',
+    ingredients: [{item: 'create_aquatic_ambitions:spiky_shell'}],
+    result: [{item: 'minecraft:shulker_shell'}]
+})
+
 //Closing Brackets
 })
