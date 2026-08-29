@@ -22,5 +22,40 @@ event.remove({ id: 'create_aquatic_ambitions:crafting/materials/trident'})
 event.remove({ id: 'createbigcannons:mixing/alloy_steel'})
 event.remove({ id: 'createnuclear:mixing/steel'})
 
+//Quark / Twilight Forest - Hollow Logs
+//exclude misspelled mangrove log
+const LogTypes = [
+    'oak',
+    'spruce',
+    'birch',
+    'jungle',
+    'acacia',
+    'dark_oak',
+    'cherry',
+    'twilight_oak',
+    'canopy',
+    'mangrove',
+    'dark',
+    'time',
+    'transformation',
+    'mining',
+    'sorting'
+]
+
+LogTypes.forEach(type => {
+    event.remove({ id: 'twilightforest:stonecutting/'+type+'_log/hollow_'+type+'_log'})
+})
+
+const StemTypes = [
+    'crimson',
+    'warped'
+]
+
+StemTypes.forEach(type => {
+    event.remove({ id: 'twilightforest:stonecutting/'+type+'_stem/hollow_'+type+'_stem'})
+})
+
+event.remove({ id: 'twilightforest:stonecutting/mangrove_log/hollow_vangrove_log'})
+
 //Closing Brackets
 })

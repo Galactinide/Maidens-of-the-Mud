@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-    //Mahogany Broom (fixxed)
+    //Mahogany Broom
     event.custom({
   "type": "hexerei:mixingcauldron",
   "fluid": {
@@ -128,7 +128,7 @@ event.recipes.create.deploying('create:refined_radiance_casing', ['betterend:lac
 event.recipes.create.deploying('create:refined_radiance_casing', ['betterend:lacugrove_stripped_log', 'tfmg:steel_ingot'])
 
 //Create Limestone Crushing Merge
-//Create Limestone
+    //Create Limestone
     event.recipes.create.crushing(
         [
             'tfmg:limesand',
@@ -141,7 +141,7 @@ event.recipes.create.deploying('create:refined_radiance_casing', ['betterend:lac
         ],
         'create:limestone'
     )
-//Quark Limestone Crushing
+    //Quark Limestone Crushing
     event.recipes.create.crushing(
         [
             'tfmg:limesand',
@@ -154,7 +154,7 @@ event.recipes.create.deploying('create:refined_radiance_casing', ['betterend:lac
         ],
         'quark:limestone'
     )
-//Quark Limestone Milling
+    //Quark Limestone Milling
     event.recipes.create.milling(
         [
             'garnished:crushed_salt',
@@ -165,7 +165,7 @@ event.recipes.create.deploying('create:refined_radiance_casing', ['betterend:lac
         'quark:limestone'
     )
 
-//Quark Create Limestone Switcher
+    //Quark Create Limestone Switcher
     event.shapeless(
         Item.of('quark:limestone'),
         [
@@ -179,6 +179,59 @@ event.recipes.create.deploying('create:refined_radiance_casing', ['betterend:lac
             'quark:limestone'
         ]
     )
+
+//Quark / Twilight Forest - Hollow Logs
+const TwilightHollowLogs = (output,input) => {
+    event.shaped(output, [
+        ' L ',
+        'L L',
+        ' L '
+        ], {
+            L:input
+        }
+    )
+}
+
+//exclude mangrove bc it's misspelled
+const VanillaHollowLogTypes = [
+    'oak',
+    'spruce',
+    'birch',
+    'jungle',
+    'acacia',
+    'dark_oak',
+    'cherry'
+]
+
+VanillaHollowLogTypes.forEach(LogType => {
+    TwilightHollowLogs('twilightforest:hollow_'+LogType+'_log','minecraft:'+LogType+'_log')
+})
+
+const NetherHollowLogTypes = [
+    'crimson',
+    'warped'
+]
+
+TwilightHollowLogs('twilightforest:hollow_vangrove_log','minecraft:mangrove_log')
+
+NetherHollowLogTypes.forEach(LogType => {
+    TwilightHollowLogs('twilightforest:hollow_'+LogType+'_stem','minecraft:'+LogType+'_stem')
+})
+
+const TwilightHollowLogTypes = [
+    'twilight_oak',
+    'canopy',
+    'mangrove',
+    'dark',
+    'time',
+    'transformation',
+    'mining',
+    'sorting'
+]
+
+TwilightHollowLogTypes.forEach(LogType => {
+    TwilightHollowLogs('twilightforest:hollow_'+LogType+'_log','twilightforest:'+LogType+'_log')
+})
 
 //Closing Brackets
 })
