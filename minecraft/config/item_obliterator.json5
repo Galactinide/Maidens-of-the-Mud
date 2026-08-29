@@ -17,7 +17,6 @@
   //    Example: minecraft:diamond
   "blacklisted_items": [
     "examplemod:example_item"
-    //quark hollow logs
     "quark:hollow_oak_log"
     "quark:hollow_spruce_log"
     "quark:hollow_birch_log"
@@ -26,6 +25,8 @@
     "quark:hollow_dark_oak_log"
     "quark:hollow_mangrove_log"
     "quark:hollow_cherry_log"
+    "moredelight:wooden_knife"
+    "moredelight:stone_knife"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
