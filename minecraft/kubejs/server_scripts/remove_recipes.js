@@ -85,7 +85,9 @@ quarkVanillaHollowStems.forEach(type => {
     event.remove({id: 'sawmill:quark_hollow_'+type+"_stem_0"})
 })
 
-//create propulstion simulated pine resin and turpentine
+//More Delight Knives
+
+//Create: Propulstion Simulated Pine Resin and Turpentine
 event.remove({id: 'createpropulsion:crushing/spruce_log'})
 event.remove({id: 'createpropulsion:mixing/turpentine'})
 
