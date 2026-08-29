@@ -1,4 +1,4 @@
-//OBLITERATION CATALOG
+//ITEM OBLITERATION CATALOG
 RecipeViewerEvents.removeEntriesCompletely('item', event => {
     
     //quark Hollow Logs
@@ -28,8 +28,20 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
     })
 
     //more delight knives
-    event.remove('moredelight:wooden_knife')
-    event.remove('moredelight:stone_knife')
+    //event.remove('moredelight:wooden_knife')
+    //event.remove('moredelight:stone_knife')
+
+    //create: propulsion simulated pine resin and turpentine bucket
+    event.remove('createpropulsion:pine_resin')
+    event.remove('createpropulsion:turpentine_bucket')
 
 //Closing Brackets
+})
+
+//FLUID OBLITERATION CATALOG
+RecipeViewerEvents.removeEntriesCompletely('fluid', event => {
+
+    //create propulsion simulated turpentine
+    event.remove('createpropulsion:turpentine')
+
 })

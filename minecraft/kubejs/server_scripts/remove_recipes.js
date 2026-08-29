@@ -58,5 +58,38 @@ StemTypes.forEach(type => {
 
 event.remove({ id: 'twilightforest:stonecutting/mangrove_log/hollow_vangrove_log'})
 
+//Remove quark Hollow Logs
+const quarkVanillaHollowLogs = [
+    'oak',
+    'spruce',
+    'birch',
+    'jungle',
+    'acacia',
+    'dark_oak',
+    'mangrove',
+    'cherry'
+]
+
+quarkVanillaHollowLogs.forEach(type => {
+    event.remove({id: 'quark:building/crafting/hollowlogs/hollow_'+type+'_log'})
+    event.remove({id: 'sawmill:quark_hollow_'+type+"_log_0"})
+})
+
+const quarkVanillaHollowStems =[
+    'crimson',
+    'warped'
+]
+
+quarkVanillaHollowStems.forEach(type => {
+    event.remove({id: 'quark:building/crafting/hollowlogs/hollow_'+type+'_stem'})
+    event.remove({id: 'sawmill:quark_hollow_'+type+"_stem_0"})
+})
+
+//create propulstion simulated pine resin and turpentine
+event.remove({id: 'createpropulsion:crushing/spruce_log'})
+event.remove({id: 'createpropulsion:mixing/turpentine'})
+
 //Closing Brackets
 })
+
+
