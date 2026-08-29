@@ -28,7 +28,8 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
     })
 
     //more delight knives
-
+    event.remove('moredelight:wooden_knife')
+    event.remove('moredelight:stone_knife')
 
 //Closing Brackets
 })
