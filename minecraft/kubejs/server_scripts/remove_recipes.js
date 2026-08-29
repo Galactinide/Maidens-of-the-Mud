@@ -23,7 +23,8 @@ event.remove({ id: 'createbigcannons:mixing/alloy_steel'})
 event.remove({ id: 'createnuclear:mixing/steel'})
 
 //Quark / Twilight Forest - Hollow Logs
-//exclude misspelled mangrove log
+    //Twilight HL switch to quark pattern
+        //exclude vanilla mangrove log (vangrove)
 const LogTypes = [
     'oak',
     'spruce',
