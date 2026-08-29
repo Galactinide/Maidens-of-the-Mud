@@ -234,13 +234,14 @@ TwilightHollowLogTypes.forEach(LogType => {
 })
 
 //Create Aquatic Ambitions - haunt spiky shells into turtle scutes
-event.haunting('minecraft:turtle_scute','create_aquatic_ambitions:spiky_shell')
+event.recipes.create.haunting('minecraft:turtle_scute','create_aquatic_ambitions:spiky_shell')
 
 //Create Aquatic Ambitions - Bulk End spiky shells into shulker shells
+//this recipe is broken and idk why
 event.custom({
-    type: 'create_dragons_plus:ending',
-    ingredients: [{item: 'create_aquatic_ambitions:spiky_shell'}],
-    result: [{item: 'minecraft:shulker_shell'}]
+    'type': 'create_dragons_plus:ending',
+    'ingredients': [{'item': 'create_aquatic_ambitions:spiky_shell'}],
+    'results': [{'id': 'minecraft:shulker_shell'}]
 })
 
 //Closing Brackets
