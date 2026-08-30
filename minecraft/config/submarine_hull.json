@@ -92205,6 +92205,10 @@
     "maxWaterDepth": 55,
     "implosionChance": 0.67
   },
+  "transmog:transmogrification_table": {
+    "maxWaterDepth": 25,
+    "implosionChance": 0.85
+  },
   "trashcans:energy_trash_can": {
     "maxWaterDepth": 90,
     "implosionChance": 0.46
