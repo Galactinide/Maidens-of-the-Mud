@@ -79625,6 +79625,46 @@
     "maxWaterDepth": 18,
     "implosionChance": 0.85
   },
+  "minersdelight:cave_carrot_crate": {
+    "maxWaterDepth": 23,
+    "implosionChance": 0.85
+  },
+  "minersdelight:cave_carrots": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "minersdelight:copper_pot": {
+    "maxWaterDepth": 37,
+    "implosionChance": 0.775
+  },
+  "minersdelight:fake_meatloaf": {
+    "maxWaterDepth": 8,
+    "implosionChance": 0.85
+  },
+  "minersdelight:glazed_arachnid_limbs": {
+    "maxWaterDepth": 8,
+    "implosionChance": 0.85
+  },
+  "minersdelight:gossypium": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "minersdelight:potted_gossypium": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "minersdelight:sticky_basket": {
+    "maxWaterDepth": 25,
+    "implosionChance": 0.85
+  },
+  "minersdelight:stuffed_squid": {
+    "maxWaterDepth": 8,
+    "implosionChance": 0.85
+  },
+  "minersdelight:wild_cave_carrots": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
   "moonlight:spawn_box": {
     "maxWaterDepth": 300,
     "implosionChance": 0.05
