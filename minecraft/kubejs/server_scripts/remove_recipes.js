@@ -87,7 +87,7 @@ quarkVanillaHollowStems.forEach(type => {
 
 //More Delight Knives
 event.remove({id: 'moredelight:wooden_knife'})
-//event.remove({id: 'sawmill:moredelight_wooden_knife_81'})
+event.remove({id: /sawmill:moredelight_wooden_knife_.*/})
 event.remove({id: 'moredelight:stone_knife'})
 
 //Create: Propulstion Simulated Pine Resin and Turpentine

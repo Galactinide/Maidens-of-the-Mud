@@ -28,7 +28,7 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
     })
 
     //more delight knives
-    //event.remove('moredelight:wooden_knife')
+    event.remove('moredelight:wooden_knife')
     event.remove('moredelight:stone_knife')
 
     //create: propulsion simulated pine resin and turpentine bucket
