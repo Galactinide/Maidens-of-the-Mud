@@ -287,5 +287,34 @@ event.recipes.create.splashing(
     'create:crushed_raw_lead'
 )
 
+//add stonecutting recipe for create nuclear and tfmg lead blocks
+event.stonecutting('createnuclear:lead_block', 'tfmg:lead_block')
+event.stonecutting('tfmg:lead_block', 'createnuclear:lead_block')
+
+//Steel Merge
+//Replace molten metal solidifying recipe
+event.recipes.create.compacting(
+    'tfmg:steel_block',
+    [Fluid.of('createbigcannons:molten_steel',810)]
+)
+
+event.recipes.create.compacting(
+    'tfmg:steel_ingot',
+    [Fluid.of('createbigcannons:molten_steel',90)]
+)
+
+event.recipes.create.compacting(
+    'tfmg:steel_nugget',
+    [Fluid.of('createbigcannons:molten_steel',10)]
+)
+
+//add stonecutting recipe for create nuclear and big cannons steel
+event.stonecutting('createnuclear:steel_block', 'tfmg:steel_block')
+event.stonecutting('tfmg:steel_block', 'createnuclear:steel_block')
+event.stonecutting('createbigcannons:steel_block', 'tfmg:steel_block')
+event.stonecutting('tfmg:steel_block', 'createbigcannons:steel_block')
+event.stonecutting('createnuclear:steel_block', 'createbigcannons:steel_block')
+event.stonecutting('createbigcannons:steel_block', 'createnuclear:steel_block')
+
 //Closing Brackets
 })

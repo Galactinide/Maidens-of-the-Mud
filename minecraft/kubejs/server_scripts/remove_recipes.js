@@ -19,9 +19,28 @@ event.remove({ id: 'create:milling/limestone'})
 event.remove({ id: 'create_aquatic_ambitions:crafting/materials/trident'})
 
 //Steel Merge
-//Create Nuclear / Create Big Cannons - Remove Steel
+//Create Nuclear / Create Big Cannons - Remove Steel recipe
 event.remove({ id: 'createbigcannons:mixing/alloy_steel'})
 event.remove({ id: 'createnuclear:mixing/steel'})
+
+//Create Nuclear - remove steel ingot nugget block recipes
+event.remove({id: 'createnuclear:crafting/steel_ingot_from_decompacting'})
+event.remove({id: 'createnuclear:crafting/crafting/steel_ingot_from_decompacting'})
+event.remove({id: 'createnuclear:crafting/crafting/steel_ingot_from_compacting'})
+event.remove({id: 'createnuclear:crafting/steel_nugget_from_decompacting'})
+event.remove({id: 'createnuclear:crafting/crafting/steel_nugget_from_decompacting'})
+event.remove({id: 'createnuclear:crafting/crafting/steel_block_from_compacting'})
+
+//Create Big Cannons - remove steel ingot nugget block recipes
+event.remove({id: 'createbigcannons:steel_ingot_from_nuggets'})
+event.remove({id: 'createbigcannons:steel_ingot_from_block'})
+event.remove({id: 'createbigcannons:steel_scrap'})
+event.remove({id: 'createbigcannons:steel_block'})
+
+//Create Big Cannons - remove default steel casting
+event.remove({id: 'createbigcannons:compacting/forge_steel_block'})
+event.remove({id: 'createbigcannons:compacting/forge_steel_ingot'})
+event.remove({id: 'createbigcannons:compacting/forge_steel_nugget'})
 
 //Quark / Twilight Forest - Hollow Logs
     //Twilight HL switch to quark pattern
@@ -116,11 +135,14 @@ event.remove({id: 'createnuclear:crafting/lead_ingot_from_decompacting'})
 event.remove({id: 'createnuclear:crafting/crafting/lead_ingot_from_decompacting'})
 event.remove({id: 'createnuclear:crafting/crafting/lead_ingot_from_compacting'})
 
-//remove create nuclear nugget crafting from ingots
+//remove create nuclear lead nugget crafting from ingots
 event.remove({id: 'createnuclear:crafting/lead_nugget_from_decompacting'})
 event.remove({id: 'createnuclear:crafting/crafting/lead_nugget_from_decompacting'})
 
-//remove create nuclear raw ore crafting
+//remove create nuclear lead block recipe
+event.remove({id: 'createnuclear:crafting/crafting/lead_block_from_compacting'})
+
+//remove create nuclear lead raw ore crafting
 event.remove({id: 'createnuclear:crafting/raw_lead_from_decompacting'})
 
 //Closing Brackets
