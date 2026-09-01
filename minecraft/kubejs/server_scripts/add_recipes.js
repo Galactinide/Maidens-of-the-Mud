@@ -192,7 +192,7 @@ const TwilightHollowLogs = (output,input) => {
     )
 }
 
-//exclude mangrove bc it's misspelled
+//exclude vanilla mangrove (vangrove)
 const VanillaHollowLogTypes = [
     'oak',
     'spruce',
@@ -234,7 +234,10 @@ TwilightHollowLogTypes.forEach(LogType => {
 })
 
 //Create Aquatic Ambitions - haunt spiky shells into turtle scutes
-event.recipes.create.haunting('minecraft:turtle_scute','create_aquatic_ambitions:spiky_shell')
+event.recipes.create.haunting(
+    'minecraft:turtle_scute',
+    'create_aquatic_ambitions:spiky_shell'
+)
 
 //Create Aquatic Ambitions - Bulk End spiky shells into shulker shells
 //this recipe is broken and idk why
@@ -255,6 +258,33 @@ event.shaped(
     {
         C: 'create:cardboard'
     }
+)
+
+//TFMG color rock extruding
+event.recipes.create_mechanical_extruder.extruding(
+    Item.of('tfmg:galena'),
+    [
+        BlockPredicate.of('tfmg:lead_block'),
+        BlockPredicate.of('minecraft:lava'),
+    ]
+).catalyst(BlockPredicate.of('minecraft:soul_soil'))
+
+event.recipes.create_mechanical_extruder.extruding(
+    Item.of('tfmg:bauxite'),
+    [
+        BlockPredicate.of('tfmg:aluminum_block'),
+        BlockPredicate.of('minecraft:lava'),
+    ]
+).catalyst(BlockPredicate.of('minecraft:soul_soil'))
+
+//Lead Merge
+//Replace Crushed Lead Washing output (event.replace does not support create washing)
+event.recipes.create.splashing(
+    [
+        '9x tfmg:lead_nugget',
+        CreateItem.of('create:experience_nugget', 0.5)
+    ],
+    'create:crushed_raw_lead'
 )
 
 //Closing Brackets

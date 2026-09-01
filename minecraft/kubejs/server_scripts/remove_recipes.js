@@ -18,6 +18,7 @@ event.remove({ id: 'create:milling/limestone'})
 //Create Aquatic Ambitions Remove Trident Recipe
 event.remove({ id: 'create_aquatic_ambitions:crafting/materials/trident'})
 
+//Steel Merge
 //Create Nuclear / Create Big Cannons - Remove Steel
 event.remove({ id: 'createbigcannons:mixing/alloy_steel'})
 event.remove({ id: 'createnuclear:mixing/steel'})
@@ -75,7 +76,7 @@ quarkVanillaHollowLogs.forEach(type => {
     event.remove({id: 'sawmill:quark_hollow_'+type+"_log_0"})
 })
 
-const quarkVanillaHollowStems =[
+const quarkVanillaHollowStems = [
     'crimson',
     'warped'
 ]
@@ -93,6 +94,34 @@ event.remove({id: 'moredelight:stone_knife'})
 //Create: Propulstion Simulated Pine Resin and Turpentine
 event.remove({id: 'createpropulsion:crushing/spruce_log'})
 event.remove({id: 'createpropulsion:mixing/turpentine'})
+
+//Lead Merge
+//Replace Crushed Lead washing output with TFMG lead (event.replace doesnt support create washing)
+event.remove({id: 'create:splashing/crushed_raw_lead'})
+
+//remove create nuclear lead smelting
+const leadSmeltTypes = [
+    'lead',
+    'raw_lead',
+    'lead_ore'
+]
+
+leadSmeltTypes.forEach(type => {
+    event.remove({id: 'createnuclear:smelting/lead_ingot_for_'+type})
+    event.remove({id: 'createnuclear:blasting/lead_ingot_for_'+type})
+})
+
+//remove create nuclear lead ingot crafting from nuggets and blocks
+event.remove({id: 'createnuclear:crafting/lead_ingot_from_decompacting'})
+event.remove({id: 'createnuclear:crafting/crafting/lead_ingot_from_decompacting'})
+event.remove({id: 'createnuclear:crafting/crafting/lead_ingot_from_compacting'})
+
+//remove create nuclear nugget crafting from ingots
+event.remove({id: 'createnuclear:crafting/lead_nugget_from_decompacting'})
+event.remove({id: 'createnuclear:crafting/crafting/lead_nugget_from_decompacting'})
+
+//remove create nuclear raw ore crafting
+event.remove({id: 'createnuclear:crafting/raw_lead_from_decompacting'})
 
 //Closing Brackets
 })

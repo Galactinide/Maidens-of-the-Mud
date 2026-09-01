@@ -35,6 +35,10 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
     event.remove('createpropulsion:pine_resin')
     event.remove('createpropulsion:turpentine_bucket')
 
+    //Lead Merge
+    event.remove('createnuclear:lead_ingot')
+    event.remove('createnuclear:lead_nugget')
+
 //Closing Brackets
 })
 
