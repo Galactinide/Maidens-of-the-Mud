@@ -145,6 +145,31 @@ event.remove({id: 'createnuclear:crafting/crafting/lead_block_from_compacting'})
 //remove create nuclear lead raw ore crafting
 event.remove({id: 'createnuclear:crafting/raw_lead_from_decompacting'})
 
+//Remove Dimantic and Adamantine (Diamond and Netherite) Bees
+    const beeTypes = [
+    'dimantic',
+    'adamantine'
+]
+
+const combTypes = [
+    'diamond',
+    'netherite'
+]
+
+//Remove Bee Mutation
+event.remove({id: 'complicated_bees:mutation/metallic/adamantine'})
+event.remove({id: 'complicated_bees:mutation/mineral/dimantic'})
+
+//Remove Comb Production (doesn't work for some reason)
+/*beeTypes.forEach(type => {
+    event.remove({id: 'complicated_bees:bee_produce/complicated_bees/'+type})
+})*/
+
+//Remove Comb Centrifuging
+combTypes.forEach(type => {
+    event.remove({id: 'complicated_bees:centrifuge/'+type+'_comb'})
+})
+
 //Closing Brackets
 })
 

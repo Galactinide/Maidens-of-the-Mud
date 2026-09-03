@@ -1,3 +1,4 @@
+//Item Tags
 ServerEvents.tags('item', event => {
     //mulch:mandrake
     event.add('mulch:mandrake', 'enchanted:mandrake_root')
@@ -18,6 +19,12 @@ ServerEvents.tags('item', event => {
     event.remove('c:nuggets', 'createnuclear:steel_nugget')
     //leaving in steel scrap because you get that from breaking cannons
     //also leaving CBC molten steel alone because it does weird stuff if you remove it from the tags
+
+//closing brackets
+})
+
+//Fluid Tags
+ServerEvents.tags('fluid', event => {
 
 //closing brackets
 })

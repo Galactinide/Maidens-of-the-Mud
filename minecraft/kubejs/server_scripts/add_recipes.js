@@ -316,5 +316,8 @@ event.stonecutting('tfmg:steel_block', 'createbigcannons:steel_block')
 event.stonecutting('createnuclear:steel_block', 'createbigcannons:steel_block')
 event.stonecutting('createbigcannons:steel_block', 'createnuclear:steel_block')
 
+//Sulfur Compat
+event.recipes.create.crushing('tfmg:sulfur_dust', 'betterend:crystalline_sulphur')
+
 //Closing Brackets
 })

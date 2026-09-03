@@ -44,6 +44,28 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
     event.remove('createnuclear:steel_nugget')
     event.remove('createbigcannons:steel_ingot')
 
+    //Complicated Bees remove Diamond and Netherite bees
+    const beeTypes = [
+        'dimantic',
+        'adamantine'
+    ]
+
+    const combTypes = [
+        'diamond',
+        'netherite'
+    ]
+
+    //remove nests
+    beeTypes.forEach(type => {
+        event.remove('complicated_bees:bee_nest[block_entity_data={id:"complicated_bees:bee_nest",species:"complicated_bees:'+type+'"}]')
+    })
+
+    //remove combs
+    combTypes.forEach(type => {
+        event.remove('complicated_bees:comb[complicated_bees:comb_type="complicated_bees:'+type+'"]')
+    })
+    //not removing the bees because they have way too much data for me to just remove them cleanly
+
 //Closing Brackets
 })
 
