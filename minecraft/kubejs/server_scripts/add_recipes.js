@@ -224,8 +224,8 @@ TwilightHollowLogTypes.forEach(LogType => {
 
 //Pointed Dripstone Crushing from Dripstone Blocks
 event.recipes.create.crushing(
-    ['minecraft:pointed_dripstone'],
-    [CreateItem.of('minecraft:dripstone', 0.25)]
+    [CreateItem.of('minecraft:pointed_dripstone', 0.25)],
+    ['minecraft:dripstone_block']
 )
 
 //Create Aquatic Ambitions - haunt spiky shells into turtle scutes
