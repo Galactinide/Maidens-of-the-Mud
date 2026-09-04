@@ -38,6 +38,7 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
     //Lead Merge
     event.remove('createnuclear:lead_ingot')
     event.remove('createnuclear:lead_nugget')
+    event.remove('createnuclear:raw_lead')
 
     //Steel Merge
     event.remove('createnuclear:steel_ingot')

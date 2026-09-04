@@ -286,6 +286,16 @@ event.recipes.create.splashing(
 event.stonecutting('createnuclear:lead_block', 'tfmg:lead_block')
 event.stonecutting('tfmg:lead_block', 'createnuclear:lead_block')
 
+//add stonecutting recipe to change ores
+event.stonecutting('createnuclear:deepslate_lead_ore', 'tfmg:deepslate_lead_ore')
+event.stonecutting('createnuclear:lead_ore', 'tfmg:lead_ore')
+event.stonecutting('tfmg:deepslate_lead_ore', 'createnuclear:deepslate_lead_ore')
+event.stonecutting('tfmg:lead_ore', 'createnuclear:lead_ore')
+
+//add stonecutting recipe to change raw ore blocks
+event.stonecutting('createnuclear:raw_lead_block', 'tfmg:raw_lead_block')
+event.stonecutting('tfmg:raw_lead_block', 'createnuclear:raw_lead_block')
+
 //Steel Merge
 //Replace molten metal solidifying recipe
 event.recipes.create.compacting(

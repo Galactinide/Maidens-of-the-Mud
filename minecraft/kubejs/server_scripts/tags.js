@@ -6,9 +6,12 @@ ServerEvents.tags('item', event => {
 
     //lead merge
     event.remove('c:ingots/lead', 'createnuclear:lead_ingot')
-    event.remove('c:nuggets/lead', 'createnuclear:lead_nugget')
     event.remove('c:ingots', 'createnuclear:lead_ingot')
+    event.remove('c:nuggets/lead', 'createnuclear:lead_nugget')
     event.remove('c:nuggets', 'createnuclear:lead_nugget')
+    event.remove('c:raw_materials/lead', 'createnuclear:raw_lead')
+    event.remove('c:raw_materials', 'createnuclear:raw_lead')
+    event.remove('c:raw_ores', 'createnuclear:raw_lead')
 
     //steel merge
     event.remove('c:ingots/steel', 'createnuclear:steel_ingot')

@@ -145,6 +145,9 @@ event.remove({id: 'createnuclear:crafting/crafting/lead_block_from_compacting'})
 //remove create nuclear lead raw ore crafting
 event.remove({id: 'createnuclear:crafting/raw_lead_from_decompacting'})
 
+//remove create nuclear lead raw ore block crafting
+event.remove({id: 'createnuclear:crafting/raw_lead_block'})
+
 //Remove Dimantic and Adamantine (Diamond and Netherite) Bees
     const beeTypes = [
     'dimantic',
