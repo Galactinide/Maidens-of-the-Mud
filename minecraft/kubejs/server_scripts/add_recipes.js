@@ -166,19 +166,8 @@ event.recipes.create.deploying('create:refined_radiance_casing', ['betterend:lac
     )
 
     //Quark Create Limestone Switcher
-    event.shapeless(
-        Item.of('quark:limestone'),
-        [
-            'create:limestone'
-        ]
-    )
-
-    event.shapeless(
-        Item.of('create:limestone'),
-        [
-            'quark:limestone'
-        ]
-    )
+    event.stonecutting('quark:limestone', 'create:limestone')
+    event.stonecutting('create:limestone', 'quark:limestone')
 
 //Quark / Twilight Forest - Hollow Logs
 const TwilightHollowLogs = (output,input) => {
@@ -232,6 +221,12 @@ const TwilightHollowLogTypes = [
 TwilightHollowLogTypes.forEach(LogType => {
     TwilightHollowLogs('twilightforest:hollow_'+LogType+'_log','twilightforest:'+LogType+'_log')
 })
+
+//Pointed Dripstone Crushing from Dripstone Blocks
+event.recipes.create.crushing(
+    ['minecraft:pointed_dripstone'],
+    [CreateItem.of('minecraft:dripstone', 0.25)]
+)
 
 //Create Aquatic Ambitions - haunt spiky shells into turtle scutes
 event.recipes.create.haunting(
