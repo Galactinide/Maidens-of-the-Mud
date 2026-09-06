@@ -3741,6 +3741,10 @@
     "maxWaterDepth": 1,
     "implosionChance": 0.85
   },
+  "chalk:mark": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
   "chalk:orange_chalk_mark": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
@@ -44972,142 +44976,6 @@
   "create_mechanical_extruder:mechanical_extruder": {
     "maxWaterDepth": 55,
     "implosionChance": 0.67
-  },
-  "create_mechanical_spawner:framed_dark_glass": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:horizontal_framed_dark_glass": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:loot_collector": {
-    "maxWaterDepth": 55,
-    "implosionChance": 0.67
-  },
-  "create_mechanical_spawner:mechanical_spawner": {
-    "maxWaterDepth": 55,
-    "implosionChance": 0.67
-  },
-  "create_mechanical_spawner:reinforced_brass_casing": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_bat": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_bee": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_blaze": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_chicken": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_cow": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_creeper": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_drowned": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_enderman": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_evoker": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_fox": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_ghast": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_horse": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_magma_cube": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_panda": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_parrot": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_pig": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_piglin": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_rabbit": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_random": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_skeleton": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_slime": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_spider": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_villager": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_witch": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_wither": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_wither_skeleton": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_wolf": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:spawn_fluid_zombie": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "create_mechanical_spawner:vertical_framed_dark_glass": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
   },
   "create_mobile_packages:bee_port": {
     "maxWaterDepth": 20,
