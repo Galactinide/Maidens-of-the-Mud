@@ -79,7 +79,7 @@ StemTypes.forEach(type => {
 event.remove({ id: 'twilightforest:stonecutting/mangrove_log/hollow_vangrove_log'})
 
 //Remove quark Hollow Logs
-const quarkVanillaHollowLogs = [
+/*const quarkVanillaHollowLogs = [
     'oak',
     'spruce',
     'birch',
@@ -103,7 +103,7 @@ const quarkVanillaHollowStems = [
 quarkVanillaHollowStems.forEach(type => {
     event.remove({id: 'quark:building/crafting/hollowlogs/hollow_'+type+'_stem'})
     event.remove({id: 'sawmill:quark_hollow_'+type+"_stem_0"})
-})
+})*/
 
 //More Delight Knives
 event.remove({id: 'moredelight:wooden_knife'})

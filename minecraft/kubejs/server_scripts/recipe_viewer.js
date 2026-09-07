@@ -2,7 +2,7 @@
 RecipeViewerEvents.removeEntriesCompletely('item', event => {
     
     //quark Hollow Logs
-    const quarkVanillaHollowLogs = [
+    /*const quarkVanillaHollowLogs = [
         'oak',
         'spruce',
         'birch',
@@ -25,7 +25,7 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
     quarkVanillaHollowStems.forEach(type => {
         event.remove('quark:hollow_'+type+'_stem')
         
-    })
+    })*/
 
     //more delight knives
     event.remove('moredelight:wooden_knife')
