@@ -69917,6 +69917,10 @@
     "maxWaterDepth": 55,
     "implosionChance": 0.67
   },
+  "kubejs:cast_mould_blank": {
+    "maxWaterDepth": 20,
+    "implosionChance": 0.85
+  },
   "large_meals:mushroom_pot_pie_block": {
     "maxWaterDepth": 8,
     "implosionChance": 0.85

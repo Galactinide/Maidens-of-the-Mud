@@ -228,6 +228,51 @@ event.recipes.create.crushing(
     ['minecraft:dripstone_block']
 )
 
+//Let's Do Vinery Grapevine Stem
+event.shaped(
+    Item.of('vinery:grapevine_stem', 6),
+    [
+        ' L ',
+        ' L ',
+        ' L '
+    ],
+    {
+        L: '#minecraft:logs'
+    }
+)
+
+//Create Big Cannons - Cast Mould Blank
+event.shaped(
+    Item.of('kubejs:cast_mould_blank', 3),
+    [
+        '   ',
+        'LLL',
+        '   '
+    ],
+    {
+        L: '#minecraft:logs'
+    }
+)
+
+//Create Big Cannons - Cast Making
+const castMouldTypes = [
+    'very_small',
+    'small',
+    'medium',
+    'large',
+    'very_large',
+    'cannon_end',
+    'sliding_breech',
+    'screw_breech',
+    'autocannon_breech',
+    'autocannon_recoil_spring',
+    'autocannon_barrel'
+]
+
+castMouldTypes.forEach(type => {
+    event.recipes.create.cutting('createbigcannons:'+type+'_cast_mould', 'kubejs:cast_mould_blank')
+})
+
 //Create Aquatic Ambitions - haunt spiky shells into turtle scutes
 event.recipes.create.haunting(
     'minecraft:turtle_scute',
@@ -235,7 +280,6 @@ event.recipes.create.haunting(
 )
 
 //Create Aquatic Ambitions - Bulk End spiky shells into shulker shells
-//this recipe is broken and idk why
 event.custom({
     'type': 'create_dragons_plus:ending',
     'ingredients': [{'item': 'create_aquatic_ambitions:spiky_shell'}],

@@ -42,6 +42,28 @@ event.remove({id: 'createbigcannons:compacting/forge_steel_block'})
 event.remove({id: 'createbigcannons:compacting/forge_steel_ingot'})
 event.remove({id: 'createbigcannons:compacting/forge_steel_nugget'})
 
+//Let's Do Vinery - Grapevine Stem
+event.remove({id: 'vinery:grapevine_stem'})
+
+//Create Big Cannons - Cast Mould recipes
+const castMouldTypes = [
+    'very_small',
+    'small',
+    'medium',
+    'large',
+    'very_large',
+    'cannon_end',
+    'sliding_breech',
+    'screw_breech',
+    'autocannon_breech',
+    'autocannon_recoil_spring',
+    'autocannon_barrel'
+]
+
+castMouldTypes.forEach(type => {
+    event.remove({id: 'createbigcannons:cutting/'+type+'_cast_mould'})
+})
+
 //Quark / Twilight Forest - Hollow Logs
     //Twilight HL switch to quark pattern
         //exclude vanilla mangrove log (vangrove)

@@ -1,0 +1,11 @@
+StartupEvents.registry('block', event => {
+    event.create('cast_mould_blank')
+        .displayName('Cast Mould Blank')
+        .soundType('wood')
+        .hardness(2.0)
+        .resistance(2.0)
+        .tagBlock('minecraft:mineable/axe')
+        .fullBlock(true)
+        .requiresTool(false)
+        .textureAll('kubejs:block/cannon_mould_base')
+})

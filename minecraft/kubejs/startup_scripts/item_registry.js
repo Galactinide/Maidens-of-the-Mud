@@ -1,0 +1,4 @@
+
+StartupEvents.registry('item', event => {
+    
+})
