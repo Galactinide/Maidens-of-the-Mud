@@ -219,6 +219,19 @@ combTypes.forEach(type => {
     event.remove({id: 'complicated_bees:centrifuge/'+type+'_comb'})
 })
 
+//Remove overlapping Farmer's Delight dough mixing recipe (why would you do this create: food?)
+event.remove({id: 'createfood:create/mixing/wheat_dough_from_mixing_water_farmersdelight'})
+
+//Slime Overhaul and Merge
+//Remove Create Slimeball Recipes
+event.remove({id: 'create:crafting/appliances/slime_ball'})
+event.remove({id: 'create_dragons_plus:dye_fluid_coloring/minecraft/lime/create/crafting/appliances/slime_ball_as_coloring'})
+event.remove({id: 'create_dragons_plus:dye_fluid_coloring/minecraft/lime/garnished/dye_blowing/minecraft/lime/slime_ball'})
+event.remove({id: 'create_dragons_plus:dye_fluid_coloring/minecraft/green/garnished/dye_blowing/minecraft/green/slime_ball'})
+event.remove({id: 'create:crafting/appliances/slime_ball_as_coloring'})
+event.remove({id: 'garnished:dye_blowing/minecraft/lime/slime_ball'})
+event.remove({id: 'garnished:dye_blowing/minecraft/green/slime_ball'})
+
 //Closing Brackets
 })
 

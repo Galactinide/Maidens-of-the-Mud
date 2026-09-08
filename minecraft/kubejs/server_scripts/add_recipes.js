@@ -416,5 +416,9 @@ event.stonecutting('tfmg:cast_iron_block', 'createbigcannons:cast_iron_block')
 //Sulfur Compat
 event.recipes.create.crushing('tfmg:sulfur_dust', 'betterend:crystalline_sulphur')
 
+//Slime Overhaul and Merge
+//Glutinous Mass Sequenced Assembly
+
+
 //Closing Brackets
 })
