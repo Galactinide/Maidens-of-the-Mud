@@ -286,19 +286,6 @@ event.custom({
     'results': [{'id': 'minecraft:shulker_shell'}]
 })
 
-//Chalk box Cardboard recipe
-event.shaped(
-    Item.of('chalk:chalk_box'),
-    [
-        'C C',
-        'C C',
-        'CCC'
-    ],
-    {
-        C: 'create:cardboard'
-    }
-)
-
 //TFMG color rock extruding
 event.recipes.create_mechanical_extruder.extruding(
     Item.of('tfmg:galena'),
