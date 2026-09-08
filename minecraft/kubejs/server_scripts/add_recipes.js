@@ -171,7 +171,7 @@ event.recipes.create.deploying('create:refined_radiance_casing', ['betterend:lac
 
 //Quark / Twilight Forest - Hollow Logs
 const TwilightHollowLogs = (output,input) => {
-    event.shaped(output, [
+    event.shaped('4x '+output, [
         'L L',
         '   ',
         'L L'
