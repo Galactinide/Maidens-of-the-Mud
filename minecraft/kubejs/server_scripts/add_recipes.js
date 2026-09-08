@@ -418,7 +418,22 @@ event.recipes.create.crushing('tfmg:sulfur_dust', 'betterend:crystalline_sulphur
 
 //Slime Overhaul and Merge
 //Glutinous Mass Sequenced Assembly
-
+event.recipes.create.sequenced_assembly(
+    //outputs
+    [
+        CreateItem.of('kubejs:glutinous_mass')
+    ],
+    //input
+    '#c:foods/dough',
+    //sequence
+    [
+        event.recipes.create.cutting('kubejs:incomplete_glutinous_mass', 'kubejs:incomplete_glutinous_mass'),
+        event.recipes.create.filling('kubejs:incomplete_glutinous_mass', [Fluid.of('minecraft:water', 250), 'kubejs:incomplete_glutinous_mass']),
+        event.recipes.create.pressing('kubejs:incomplete_glutinous_mass', 'kubejs:incomplete_glutinous_mass')
+    ]
+)
+.transitionalItem('kubejs:incomplete_glutinous_mass')
+.loops(3)
 
 //Closing Brackets
 })
