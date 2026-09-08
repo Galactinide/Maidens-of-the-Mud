@@ -1,8 +1,8 @@
 //Item Tags
 ServerEvents.tags('item', event => {
-    //mulch:mandrake
-    event.add('mulch:mandrake', 'enchanted:mandrake_root')
-    event.add('mulch:mandrake', 'hexerei:mandrake_root')
+    //mud:mandrake
+    event.add('mud:mandrake', 'enchanted:mandrake_root')
+    event.add('mud:mandrake', 'hexerei:mandrake_root')
 
     //lead merge
     event.remove('c:ingots/lead', 'createnuclear:lead_ingot')
@@ -27,6 +27,21 @@ ServerEvents.tags('item', event => {
     event.remove('c:ingots/cast_iron', 'createbigcannons:cast_iron_ingot')
     event.remove('c:ingots', 'createbigcannons:cast_iron_ingot')
 
+    //mud:copper_blocks
+    const copperBlockTypes = [
+        'exposed',
+        'weathered',
+        'oxidized'
+    ]
+    
+    copperBlockTypes.forEach(type => {
+        event.add('mud:copper_blocks', type+'_copper')
+        event.add('mud:copper_blocks', 'waxed_'+type+'_copper')
+    })
+
+    event.add('mud:copper_blocks', 'minecraft:copper_block')
+    event.add('mud:copper_blocks', 'minecraft:waxed_copper_block')
+        
 //closing brackets
 })
 

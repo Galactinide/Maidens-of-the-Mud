@@ -11,9 +11,9 @@ ServerEvents.recipes(event => {
         { "item": 'minecraft:netherite_ingot' },
         { "item": 'hexerei:mahogany_log' },
         { "item": 'enchanted:demonic_blood' },
-        { "tag": 'mulch:mandrake' },
+        { "tag": 'mud:mandrake' },
         { "item": 'enchanted:flying_ointment' },
-        { "tag": 'mulch:mandrake' },
+        { "tag": 'mud:mandrake' },
         { "item": 'enchanted:demonic_blood' },
         { "item": 'hexerei:mahogany_log' }
     ],
@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
         { "item": 'hexerei:witch_hazel_log' },
         { "item": 'enchanted:breath_of_the_goddess' },
         { "item": 'enchanted:wool_of_bat' },
-        { "tag": 'mulch:mandrake' },
+        { "tag": 'mud:mandrake' },
         { "item": 'enchanted:wool_of_bat' },
         { "item": 'enchanted:exhale_of_the_horned_one' },
         { "item": 'hexerei:witch_hazel_log' }
@@ -65,9 +65,9 @@ ServerEvents.recipes(event => {
         { "item": 'hexerei:blood_bottle' },
         { "item": 'hexerei:willow_log' },
         { "item": 'minecraft:gold_block' },
-        { "tag": 'mulch:mandrake' },
+        { "tag": 'mud:mandrake' },
         { "item": 'enchanted:whiff_of_magic' },
-        { "tag": 'mulch:mandrake' },
+        { "tag": 'mud:mandrake' },
         { "item": 'minecraft:gold_block' },
         { "item": 'hexerei:willow_log' }
     ],
@@ -325,17 +325,17 @@ event.recipes.create_mechanical_extruder.extruding(
 ).catalyst(BlockPredicate.of('minecraft:soul_soil'))
 
 event.recipes.create_mechanical_extruder.extruding(
-    Item.of('create:veridium'),
+    Item.of('create:ochrum'),
     [
-        BlockPredicate.of('minecraft:copper_block'),
+        BlockPredicate.of('minecraft:gold_block'),
         BlockPredicate.of('minecraft:lava'),
     ]
 ).catalyst(BlockPredicate.of('minecraft:soul_soil'))
 
 event.recipes.create_mechanical_extruder.extruding(
-    Item.of('create:ochrum'),
+    Item.of('create:veridium'),
     [
-        BlockPredicate.of('minecraft:gold_block'),
+        BlockPredicate.of('minecraft:oxidized_copper'),
         BlockPredicate.of('minecraft:lava'),
     ]
 ).catalyst(BlockPredicate.of('minecraft:soul_soil'))
