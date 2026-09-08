@@ -81,3 +81,5 @@ minecraft/config/sophisticatedcore-common.toml
 minecraft/config/sophisticatedstorage-client.toml
 minecraft/config/zfastnoise.mixin.properties
 /minecraft/debug
+minecraft/config/phantom-spawning.json
+minecraft/fancymenu_data/last_world.fmdata
