@@ -32,7 +32,7 @@ ServerEvents.recipes(event =>{
                 Item.of(knives).enchant('minecraft:unbreaking', 10)
             )
             })*/
-    
+
     //doesn't work, I think washing is unsupported by bulk replace recipes        
     /*event.replaceOutput(
         {input: 'createnuclear:lead_nugget'},

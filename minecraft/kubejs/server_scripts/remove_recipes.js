@@ -64,6 +64,25 @@ castMouldTypes.forEach(type => {
     event.remove({id: 'createbigcannons:cutting/'+type+'_cast_mould'})
 })
 
+//Cast Iron Merge
+//TFMG Cast Iron from Ingots (to replace original)
+event.remove({id: 'tfmg:compacting/cast_iron'})
+
+//CBC Cast Iron from Ingots
+event.remove({id: 'createbigcannons:compacting/iron_to_cast_iron_ingot'})
+event.remove({id: 'createbigcannons:compacting/iron_to_cast_iron_block'})
+
+//CBC Molten Cast Iron to Ingot
+event.remove({id: 'createbigcannons:compacting/forge_cast_iron_block'})
+event.remove({id: 'createbigcannons:compacting/forge_cast_iron_ingot'})
+event.remove({id: 'createbigcannons:compacting/forge_cast_iron_nugget'})
+
+//CBC remove ingot block nugget
+event.remove({id: 'createbigcannons:cast_iron_nugget'})
+event.remove({id: 'createbigcannons:cast_iron_ingot_from_nuggets'})
+event.remove({id: 'createbigcannons:cast_iron_ingot_from_block'})
+event.remove({id: 'createbigcannons:cast_iron_block'})
+
 //Quark / Twilight Forest - Hollow Logs
     //Twilight HL switch to quark pattern
         //exclude vanilla mangrove log (vangrove)
@@ -135,6 +154,11 @@ event.remove({id: 'moredelight:stone_knife'})
 //Create: Propulstion Simulated Pine Resin and Turpentine
 event.remove({id: 'createpropulsion:crushing/spruce_log'})
 event.remove({id: 'createpropulsion:mixing/turpentine'})
+
+//Create Mechanical Extruder - Standardize Color Rock Recipes
+event.remove({id: 'create_mechanical_extruder:extruding/asurine'})
+event.remove({id: 'create_mechanical_extruder:extruding/veridium'})
+event.remove({id: 'create_mechanical_extruder:extruding/ochrum'})
 
 //Lead Merge
 //Replace Crushed Lead washing output with TFMG lead (event.replace doesnt support create washing)

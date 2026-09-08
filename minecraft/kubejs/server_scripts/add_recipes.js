@@ -316,6 +316,30 @@ event.recipes.create_mechanical_extruder.extruding(
     ]
 ).catalyst(BlockPredicate.of('minecraft:soul_soil'))
 
+event.recipes.create_mechanical_extruder.extruding(
+    Item.of('create:asurine'),
+    [
+        BlockPredicate.of('create:zinc_block'),
+        BlockPredicate.of('minecraft:lava'),
+    ]
+).catalyst(BlockPredicate.of('minecraft:soul_soil'))
+
+event.recipes.create_mechanical_extruder.extruding(
+    Item.of('create:veridium'),
+    [
+        BlockPredicate.of('minecraft:copper_block'),
+        BlockPredicate.of('minecraft:lava'),
+    ]
+).catalyst(BlockPredicate.of('minecraft:soul_soil'))
+
+event.recipes.create_mechanical_extruder.extruding(
+    Item.of('create:ochrum'),
+    [
+        BlockPredicate.of('minecraft:gold_block'),
+        BlockPredicate.of('minecraft:lava'),
+    ]
+).catalyst(BlockPredicate.of('minecraft:soul_soil'))
+
 //Lead Merge
 //Replace Crushed Lead Washing output (event.replace does not support create washing)
 event.recipes.create.splashing(
@@ -364,6 +388,43 @@ event.stonecutting('createbigcannons:steel_block', 'tfmg:steel_block')
 event.stonecutting('tfmg:steel_block', 'createbigcannons:steel_block')
 event.stonecutting('createnuclear:steel_block', 'createbigcannons:steel_block')
 event.stonecutting('createbigcannons:steel_block', 'createnuclear:steel_block')
+
+//Cast Iron Merge
+//Cast Iron from Iron and coal
+event.recipes.create.compacting(
+    'tfmg:cast_iron_ingot',
+    [Ingredient.of('minecraft:iron_ingot'), Ingredient.of('#minecraft:coals')]
+).heated()
+
+event.recipes.create.compacting(
+    'tfmg:cast_iron_ingot',
+    [Ingredient.of('minecraft:iron_block'), Ingredient.of('#minecraft:coals', 9)]
+).heated()
+
+event.recipes.create.compacting(
+    'tfmg:cast_iron_ingot',
+    [Ingredient.of('minecraft:iron_block'), Ingredient.of('minecraft:coal_block')]
+).heated()
+
+//Compacting Molten Cast Iron
+event.recipes.create.compacting(
+    'tfmg:cast_iron_block',
+    [Fluid.of('createbigcannons:molten_cast_iron', 810)]
+)
+
+event.recipes.create.compacting(
+    'tfmg:cast_iron_ingot',
+    [Fluid.of('createbigcannons:molten_cast_iron', 90)]
+)
+
+event.recipes.create.compacting(
+    'tfmg:cast_iron_nugget',
+    [Fluid.of('createbigcannons:molten_cast_iron', 10)]
+)
+
+//Stonecutting Cast Iron Block Variants
+event.stonecutting('createbigcannons:cast_iron_block', 'tfmg:cast_iron_block')
+event.stonecutting('tfmg:cast_iron_block', 'createbigcannons:cast_iron_block')
 
 //Sulfur Compat
 event.recipes.create.crushing('tfmg:sulfur_dust', 'betterend:crystalline_sulphur')

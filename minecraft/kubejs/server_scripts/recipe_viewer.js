@@ -45,6 +45,9 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
     event.remove('createnuclear:steel_nugget')
     event.remove('createbigcannons:steel_ingot')
 
+    //Cast Iron Merge
+    event.remove('createbigcannons:cast_iron_ingot')
+
     //Complicated Bees remove Diamond and Netherite bees
     const beeTypes = [
         'dimantic',

@@ -23,6 +23,10 @@ ServerEvents.tags('item', event => {
     //leaving in steel scrap because you get that from breaking cannons
     //also leaving CBC molten steel alone because it does weird stuff if you remove it from the tags
 
+    //cast iron merge
+    event.remove('c:ingots/cast_iron', 'createbigcannons:cast_iron_ingot')
+    event.remove('c:ingots', 'createbigcannons:cast_iron_ingot')
+
 //closing brackets
 })
 
