@@ -232,8 +232,10 @@ event.remove({id: 'create:crafting/appliances/slime_ball_as_coloring'})
 event.remove({id: 'garnished:dye_blowing/minecraft/lime/slime_ball'})
 event.remove({id: 'garnished:dye_blowing/minecraft/green/slime_ball'})
 
-//Remove Vanilla Slimeball Recipes
-
+//Remove Maze Slimeball Recipes in favor of tagged recipes
+event.remove({id: 'twilightforest:sticky_piston_maze_ver'})
+event.remove({id: 'twilightforest:lead_maze_ver'})
+event.remove({id: 'twilightforest:magma_cream_maze_ver'})
 
 //Closing Brackets
 })
