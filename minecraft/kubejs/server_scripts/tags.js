@@ -41,6 +41,9 @@ ServerEvents.tags('item', event => {
 
     event.add('mud:copper_blocks', 'minecraft:copper_block')
     event.add('mud:copper_blocks', 'minecraft:waxed_copper_block')
+
+    //c:slime_balls
+    event.add('c:slime_balls', 'kubejs:glutinous_mass')
         
 //closing brackets
 })

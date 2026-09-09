@@ -232,6 +232,9 @@ event.remove({id: 'create:crafting/appliances/slime_ball_as_coloring'})
 event.remove({id: 'garnished:dye_blowing/minecraft/lime/slime_ball'})
 event.remove({id: 'garnished:dye_blowing/minecraft/green/slime_ball'})
 
+//Remove Vanilla Slimeball Recipes
+
+
 //Closing Brackets
 })
 

@@ -40,5 +40,12 @@ ServerEvents.recipes(event =>{
         ('tfmg:lead_nugget')
     )*/
 
+    //Replace Slimeball Recipes with #c:slime_balls tag
+    event.replaceInput(
+      {input: 'minecraft:slime_ball', not: {output:'minecraft:slime_block'}},
+      'minecraft:slime_ball',
+      '#c:slime_balls'
+    )
+
 //Closing Brackets
 })
