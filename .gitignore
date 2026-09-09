@@ -1,6 +1,5 @@
 instance.cfg
 /minecraft/.mixin.out
-*.png
 /minecraft/.sable
 minecraft/command_history.txt
 /minecraft/dynamic-data-pack-cache
@@ -83,3 +82,4 @@ minecraft/config/zfastnoise.mixin.properties
 /minecraft/debug
 minecraft/config/phantom-spawning.json
 minecraft/fancymenu_data/last_world.fmdata
+/minecraft/screenshots
