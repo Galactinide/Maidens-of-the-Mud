@@ -436,7 +436,43 @@ ServerEvents.recipes(event => {
     .loops(3)
 
 //Jetpack Crafting Overhaul
+    event.recipes.create.mechanical_crafting(
+        'create_jetpack:jetpack', [
+            ' ESE ',
+            'BMTMB',
+            'BZGZB',
+            ' P P '
+        ], {
+            E: 'simulated:engine_assembly',
+            S: 'create:shaft',
+            B: 'create:brass_sheet',
+            M: 'create:precision_mechanism',
+            T: 'create:copper_backtank',
+            Z: 'aeronautics:gyroscopic_propeller_bearing',
+            G: 'aeroworks:gyroscope',
+            P: 'create:propeller'
+        }
 
+    )
+
+    event.recipes.create.mechanical_crafting(
+        'create_jetpack:netherite_jetpack', [
+            ' ESE ',
+            'BMTMB',
+            'BZGZB',
+            ' P P '
+        ], {
+            E: 'simulated:engine_assembly',
+            S: 'create:shaft',
+            B: 'create:brass_sheet',
+            M: 'create:precision_mechanism',
+            T: 'create:netherite_backtank',
+            Z: 'aeronautics:gyroscopic_propeller_bearing',
+            G: 'aeroworks:gyroscope',
+            P: 'create:propeller'
+        }
+
+    )
 
 //Closing Brackets
 })
