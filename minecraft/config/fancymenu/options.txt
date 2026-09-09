@@ -25,11 +25,11 @@ S:custom_game_intro_skip_text = '';
 
 ##[window]
 
-B:show_custom_window_icon = 'false';
-S:custom_window_icon_macos = '';
+B:show_custom_window_icon = 'true';
+S:custom_window_icon_macos = '/config/fancymenu/assets/motm_icon_macos.icns';
 S:custom_window_icon_32 = '/config/fancymenu/assets/motm_icon_tiny.png';
 S:custom_window_title = 'Maidens of the Mud';
-S:custom_window_icon_16 = '';
+S:custom_window_icon_16 = '/config/fancymenu/assets/motm_icon_tinier.png';
 
 
 ##[global_customizations]
