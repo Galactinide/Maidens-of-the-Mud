@@ -11,6 +11,7 @@ StartupEvents.registry('item', event => {
         .texture('mud:item/incomplete_glutinous_mass')
         .maxStackSize(64)
 
+    //Le fishe au chocolat
     event.create('le_fishe_au_chocolat')
         .displayName('Le Fishe au Chocolat')
         .texture('mud:item/lefisheauchocolat')

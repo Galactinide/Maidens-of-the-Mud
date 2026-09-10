@@ -435,6 +435,9 @@ ServerEvents.recipes(event => {
     .transitionalItem('kubejs:incomplete_glutinous_mass')
     .loops(3)
 
+    //Mastic Resin recipe to use #c:slime_balls [Broken: Mastic Resin recipe is not changeable due to weird Garnished warning errors]
+    //event.recipes.create.compacting('garnished:mastic_resin', ['minecraft:wheat_seeds', '#c:slime_balls', 'minecraft:sugar']).heated()
+
 //Jetpack Crafting Overhaul
     event.recipes.create.mechanical_crafting(
         'create_jetpack:jetpack', [
@@ -473,6 +476,9 @@ ServerEvents.recipes(event => {
         }
 
     )
+
+//Le Fishe au Chocolat
+    event.recipes.create.filling('kubejs:le_fishe_au_chocolat', [Fluid.of('create:chocolate'), 'minecraft:cod'])
 
 //Closing Brackets
 })

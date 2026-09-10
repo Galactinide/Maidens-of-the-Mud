@@ -240,7 +240,13 @@ ServerEvents.recipes(event => {
 //Jetpack Crafting Overhaul
     event.remove({id: 'create_jetpack:jetpack'})
     event.remove({id: 'create_jetpack:netherite_jetpack'})
-    
+
+//Remove Slimeball only Mastic Resin [Broken: Mastic Resin recipe is not changeable due to weird Garnished warning errors]
+    //event.remove({id: 'garnished:compacting/mastic_resin/base'})
+
+//Replacing Uranium powder in crushing granite
+    event.remove({id: 'create:crushing/granite'})
+
 //Closing Brackets
 })
 
