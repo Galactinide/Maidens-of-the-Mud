@@ -70,6 +70,65 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
     })
     //not removing the bees because they have way too much data for me to just remove them cleanly
 
+    //Create Cafe recipeless culling
+    const emptyCafe = [
+        'mango',
+        'lime',
+        'lychee',
+        'kiwi',
+        'lemon',
+        'strawberry',
+        'blueberry',
+        'orange',
+        'peach',
+        'pineapple',
+        'banana',
+        'yucca',
+        'cherry',
+        'plum',
+        'aloe',
+        'blackberry',
+        'jackfruit',
+        'coconut',
+        'dragonfruit',
+        'apricot',
+        'durian',
+        'fig',
+        'tamarind',
+        'gooseberry',
+        'grapefruit',
+        'papaya',
+        'guava',
+        'passionfruit',
+        'pomegranate',
+        'persimmon',
+        'raspberry',
+        'starfruit',
+        'lavender',
+        'pomelo',
+        'mandarin',
+        'citron',
+        'redlove',
+        'barberry'
+    ]
+
+    emptyCafe.forEach(type => {
+        event.remove('createcafe:'+type+'_milk_tea')
+        event.remove('createcafe:'+type+'_tea_bucket')
+    })
+
+    const emptySyrup = [
+        'strawberry',
+        'vanilla',
+        'raspberry',
+        'coconut',
+        'banana'
+    ]
+
+    emptySyrup.forEach(type => {
+        event.remove('createcafe:'+type+'_syrup_bucket')
+    })
+
 //Closing Brackets
 })
 
@@ -79,4 +138,61 @@ RecipeViewerEvents.removeEntriesCompletely('fluid', event => {
     //create propulsion simulated turpentine
     event.remove('createpropulsion:turpentine')
 
+    //Create Cafe recipeless culling
+    const emptyCafe = [
+        'mango',
+        'lime',
+        'lychee',
+        'kiwi',
+        'lemon',
+        'strawberry',
+        'blueberry',
+        'orange',
+        'peach',
+        'pineapple',
+        'banana',
+        'yucca',
+        'cherry',
+        'plum',
+        'aloe',
+        'blackberry',
+        'jackfruit',
+        'coconut',
+        'dragonfruit',
+        'apricot',
+        'durian',
+        'fig',
+        'tamarind',
+        'gooseberry',
+        'grapefruit',
+        'papaya',
+        'guava',
+        'passionfruit',
+        'pomegranate',
+        'persimmon',
+        'raspberry',
+        'starfruit',
+        'lavender',
+        'pomelo',
+        'mandarin',
+        'citron',
+        'redlove',
+        'barberry'
+    ]
+
+    emptyCafe.forEach(type => {
+        event.remove('createcafe:'+type+'_tea')
+    })
+
+    const emptySyrup = [
+        'strawberry',
+        'vanilla',
+        'raspberry',
+        'coconut',
+        'banana'
+    ]
+
+    emptySyrup.forEach(type => {
+        event.remove('createcafe:'+type+'_syrup')
+    })
 })
