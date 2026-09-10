@@ -25,12 +25,15 @@ StartupEvents.registry('item', event => {
                 .effect('minecraft:nausea', 200, 1, 1.0)
                 .alwaysEdible()
         })
-        
-    //Pitchblende
+
+    //Uranium Processing
     event.create('pitchblende')
         .displayName('Pitchblende')
         .texture('mud:item/pitchblende')
         .maxStackSize(64)
-            
+    event.create('tyuyayamunite')
+        .displayName('Tyuyayamunite')
+        .texture('mud:item/tyuyayamunite')
+        .maxStackSize(64)     
     
 })

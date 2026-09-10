@@ -475,12 +475,20 @@ ServerEvents.recipes(event => {
     event.recipes.create.filling('kubejs:le_fishe_au_chocolat', [Fluid.of('create:chocolate'), 'minecraft:cod'])
 
 //Uranium Reprocessing
-    //Ending Granite into Pitchblende
+    //Ending Granite into Tyuyayamunite
     event.custom({
         'type': 'create_dragons_plus:ending',
         'ingredients': [{'item': 'minecraft:granite'}],
-        'results': [{'id': 'kubejs:pitchblende'}]
+        'results': [{'id': 'kubejs:tyuyayamunite'}]
     })
+    //Mixing
+      event.recipes.create.mixing(
+        'kubejs:pitchblende', 
+        [
+            'minecraft:yellow_dye',
+            'kubejs:tyuyayamunite'
+        ])
+        .superheated()
     //Crushing Pitchblende into Crushed Raw Uranium/Granite
     event.recipes.create.crushing(
         [
