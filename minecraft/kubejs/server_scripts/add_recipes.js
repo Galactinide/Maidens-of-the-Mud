@@ -132,7 +132,6 @@ ServerEvents.recipes(event => {
     event.recipes.create.crushing(
         [
             'tfmg:limesand',
-            'garnished:crushed_salt',
             'create_aquatic_ambitions:calcium_rich_powder',
             CreateItem.of('create_aquatic_ambitions:calcium_rich_powder', 0.5),
             CreateItem.of('create_aquatic_ambitions:suspicious_rock', 0.05),
@@ -145,7 +144,6 @@ ServerEvents.recipes(event => {
     event.recipes.create.crushing(
         [
             'tfmg:limesand',
-            'garnished:crushed_salt',
             'create_aquatic_ambitions:calcium_rich_powder',
             CreateItem.of('create_aquatic_ambitions:calcium_rich_powder', 0.5),
             CreateItem.of('create_aquatic_ambitions:suspicious_rock', 0.05),
@@ -157,7 +155,6 @@ ServerEvents.recipes(event => {
     //Quark Limestone Milling
     event.recipes.create.milling(
         [
-            'garnished:crushed_salt',
             'create_aquatic_ambitions:calcium_rich_powder',
             CreateItem.of('create_aquatic_ambitions:calcium_rich_powder', 0.5),
             CreateItem.of('create_aquatic_ambitions:suspicious_rock', 0.05),
@@ -434,9 +431,6 @@ ServerEvents.recipes(event => {
     )
     .transitionalItem('kubejs:incomplete_glutinous_mass')
     .loops(3)
-
-    //Mastic Resin recipe to use #c:slime_balls [Broken: Mastic Resin recipe is not changeable due to weird Garnished warning errors]
-    //event.recipes.create.compacting('garnished:mastic_resin', ['minecraft:wheat_seeds', '#c:slime_balls', 'minecraft:sugar']).heated()
 
 //Jetpack Crafting Overhaul
     event.recipes.create.mechanical_crafting(

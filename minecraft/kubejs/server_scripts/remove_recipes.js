@@ -12,7 +12,6 @@ ServerEvents.recipes(event => {
 //Create Limestone Crushing Merge
     //make sure to remove the leading "jei:/" and replace the next "/" with a ":" for recipes that start with jei
     event.remove({ id: 'create:crushing/limestone'})
-    event.remove({ id: 'garnished:integration/create_aquatic_ambitions/crushed_salt_crushing'})
     event.remove({ id: 'create:milling/limestone'})
 
 //Create Aquatic Ambitions Remove Trident Recipe
@@ -226,11 +225,8 @@ ServerEvents.recipes(event => {
     //Remove Create Slimeball Recipes
         event.remove({id: 'create:crafting/appliances/slime_ball'})
         event.remove({id: 'create_dragons_plus:dye_fluid_coloring/minecraft/lime/create/crafting/appliances/slime_ball_as_coloring'})
-        event.remove({id: 'create_dragons_plus:dye_fluid_coloring/minecraft/lime/garnished/dye_blowing/minecraft/lime/slime_ball'})
-        event.remove({id: 'create_dragons_plus:dye_fluid_coloring/minecraft/green/garnished/dye_blowing/minecraft/green/slime_ball'})
         event.remove({id: 'create:crafting/appliances/slime_ball_as_coloring'})
-        event.remove({id: 'garnished:dye_blowing/minecraft/lime/slime_ball'})
-        event.remove({id: 'garnished:dye_blowing/minecraft/green/slime_ball'})
+
 
     //Remove Maze Slimeball Recipes in favor of tagged recipes
         event.remove({id: 'twilightforest:sticky_piston_maze_ver'})
@@ -240,9 +236,6 @@ ServerEvents.recipes(event => {
 //Jetpack Crafting Overhaul
     event.remove({id: 'create_jetpack:jetpack'})
     event.remove({id: 'create_jetpack:netherite_jetpack'})
-
-//Remove Slimeball only Mastic Resin [Broken: Mastic Resin recipe is not changeable due to weird Garnished warning errors]
-    //event.remove({id: 'garnished:compacting/mastic_resin/base'})
 
 //Replacing Uranium powder in crushing granite
     event.remove({id: 'create:crushing/granite'})
