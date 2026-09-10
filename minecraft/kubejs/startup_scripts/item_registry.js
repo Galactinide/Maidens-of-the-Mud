@@ -25,7 +25,12 @@ StartupEvents.registry('item', event => {
                 .effect('minecraft:nausea', 200, 1, 1.0)
                 .alwaysEdible()
         })
-
+        
+    //Pitchblende
+    event.create('pitchblende')
+        .displayName('Pitchblende')
+        .texture('mud:item/pitchblende')
+        .maxStackSize(64)
             
     
 })

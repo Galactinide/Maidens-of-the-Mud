@@ -480,5 +480,21 @@ ServerEvents.recipes(event => {
 //Le Fishe au Chocolat
     event.recipes.create.filling('kubejs:le_fishe_au_chocolat', [Fluid.of('create:chocolate'), 'minecraft:cod'])
 
+//Uranium Reprocessing
+    //Ending Granite into Pitchblende
+    event.custom({
+        'type': 'create_dragons_plus:ending',
+        'ingredients': [{'item': 'minecraft:granite'}],
+        'results': [{'id': 'kubejs:pitchblende'}]
+    })
+    //Crushing Pitchblende into Crushed Raw Uranium/Granite
+    event.recipes.create.crushing(
+        [
+            CreateItem.of('minecraft:granite', 0.5),
+            CreateItem.of('create:crushed_raw_uranium', 0.5),
+        ],
+        'kubejs:pitchblende'
+    )
+
 //Closing Brackets
 })
