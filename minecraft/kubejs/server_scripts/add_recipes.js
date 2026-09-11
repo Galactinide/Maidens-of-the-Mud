@@ -523,5 +523,22 @@ ServerEvents.recipes(event => {
         'kubejs:tyuyayamunite'
     )
 
+//Create Cafe compats
+    //Vinery Grape
+    event.recipes.create.mixing(
+        'createcafe:grape_tea',
+        [
+            Ingredient.of('#vinery:red_grape'),
+            Fluid.of('minecraft:milk', 250),
+            Fluid.of('createcafe:melted_sugar', 250)
+        ]
+    )
+    //Freezing sugar for mint
+    event.custom({
+        'type': 'create_dragons_plus:freezing',
+        'ingredients': [{'item': 'createcafe:melted_sugar_bucket'}],
+        'results': [{'id': 'createcafe:mint_syrup_bucket'}]
+    })
+
 //Closing Brackets
 })

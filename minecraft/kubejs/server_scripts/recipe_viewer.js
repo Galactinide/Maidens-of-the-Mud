@@ -129,6 +129,13 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
         event.remove('createcafe:'+type+'_syrup_bucket')
     })
 
+    event.remove('createcafe:blood_orange')
+    event.remove('createcafe:blood_orange_milk_tea')
+    event.remove('createcafe:blood_tea_bucket')
+    event.remove('createcafe:mana_berries')
+    event.remove('createcafe:mana_berry_milk_tea')
+    event.remove('createcafe:mana_tea_bucket')
+
 //Closing Brackets
 })
 
@@ -195,4 +202,7 @@ RecipeViewerEvents.removeEntriesCompletely('fluid', event => {
     emptySyrup.forEach(type => {
         event.remove('createcafe:'+type+'_syrup')
     })
+
+    event.remove('createcafe:blood_tea')
+    event.remove('createcafe:mana_tea')
 })
