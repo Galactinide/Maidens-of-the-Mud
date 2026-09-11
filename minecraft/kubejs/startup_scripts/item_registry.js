@@ -27,6 +27,19 @@ StartupEvents.registry('item', event => {
         })
 
     //Uranium Processing
+ 
+    event.create('uraniumrich_gravel')
+        .displayName('Uranium-Rich Gravel')
+        .texture('mud:item/placeholder')
+        .maxStackSize(64)
+    event.create('dense_uraniumrich_gravel')
+        .displayName('Dense Uranium-Rich Gravel')
+        .texture('mud:item/placeholder')
+        .maxStackSize(64)
+    event.create('uraniumrich_slurry')
+        .displayName('Uranium-Rich Slurry')
+        .texture('mud:item/placeholder')
+        .maxStackSize(64)
     event.create('pitchblende')
         .displayName('Pitchblende')
         .texture('mud:item/pitchblende')
@@ -34,6 +47,6 @@ StartupEvents.registry('item', event => {
     event.create('tyuyayamunite')
         .displayName('Tyuyayamunite')
         .texture('mud:item/tyuyayamunite')
-        .maxStackSize(64)     
-    
+        .maxStackSize(64)
+
 })

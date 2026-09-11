@@ -474,28 +474,53 @@ ServerEvents.recipes(event => {
 //Le Fishe au Chocolat
     event.recipes.create.filling('kubejs:le_fishe_au_chocolat', [Fluid.of('create:chocolate'), 'minecraft:cod'])
 
-//Uranium Reprocessing
-    //Ending Granite into Tyuyayamunite
+//Uranium Processing
     event.custom({
         'type': 'create_dragons_plus:ending',
         'ingredients': [{'item': 'minecraft:granite'}],
-        'results': [{'id': 'kubejs:tyuyayamunite'}]
+        'results': [{'id': 'createnuclear:autunite'}]
     })
-    //Mixing
-      event.recipes.create.mixing(
-        'kubejs:pitchblende', 
-        [
-            'minecraft:yellow_dye',
-            'kubejs:tyuyayamunite'
-        ])
-        .superheated()
-    //Crushing Pitchblende into Crushed Raw Uranium/Granite
     event.recipes.create.crushing(
         [
-            CreateItem.of('minecraft:granite', 0.5),
-            CreateItem.of('create:crushed_raw_uranium', 0.5),
+            'kubejs:uraniumrich_gravel'
         ],
-        'kubejs:pitchblende'
+        'createnuclear:autunite'
+    )
+    event.recipes.create.compacting(
+        'kubejs:dense_uraniumrich_gravel',
+        [
+            Ingredient.of('kubejs:uraniumrich_gravel'),
+            Ingredient.of('kubejs:uraniumrich_gravel')
+        ]
+    )
+    event.recipes.create.splashing(
+        'kubejs:uraniumrich_slurry',
+        'kubejs:dense_uraniumrich_gravel'
+    )
+    event.recipes.create.compacting(
+        'kubejs:pitchblende', 
+        [
+            'kubejs:uraniumrich_slurry',
+            'create:crushed_raw_lead'
+        ]
+        
+    )
+        .heated()
+    event.recipes.create.mixing(
+        'kubejs:tyuyayamunite', 
+        [
+            'minecraft:yellow_dye',
+            'kubejs:pitchblende'
+        ])
+        .superheated()
+    event.recipes.create.crushing(
+        [
+            CreateItem.of('create:crushed_raw_uranium'),
+            CreateItem.of('create:crushed_raw_lead', 0.75),
+            CreateItem.of('minecraft:granite', 0.5)
+
+        ],
+        'kubejs:tyuyayamunite'
     )
 
 //Closing Brackets
