@@ -89,3 +89,6 @@ minecraft/servers.dat
 /minecraft/.voxy/saves
 minecraft/servers.dat_old
 minecraft/icon.png
+minecraft/mods/worldstripper-1.21-5.0.0-neoforge.jar
+minecraft/config/worldstripper/strippables.json
+minecraft/config/worldstripper/config.json

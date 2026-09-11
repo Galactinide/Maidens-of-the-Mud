@@ -1,0 +1,50 @@
+#Plain uranium ore vein (createnuclear:uranium_ore)
+[uranium]
+	#Placement attempts per chunk (higher = more ore)
+	# Default: 4
+	# Range: 0 ~ 256
+	count = 1
+	#Lowest Y, absolute
+	# Default: -128
+	# Range: -2048 ~ 2048
+	min_y = -128
+	#Highest Y, absolute
+	# Default: 0
+	# Range: -2048 ~ 2048
+	max_y = -96
+	#Distribution: uniform | trapezoid | biased_to_bottom | very_biased_to_bottom
+	distribution = "very_biased_to_bottom"
+
+#Lead ore vein (createnuclear:lead_ore)
+[lead]
+	#Placement attempts per chunk (higher = more ore)
+	# Default: 8
+	# Range: 0 ~ 256
+	count = 8
+	#Lowest Y, absolute
+	# Default: -128
+	# Range: -2048 ~ 2048
+	min_y = -128
+	#Highest Y, absolute
+	# Default: -64
+	# Range: -2048 ~ 2048
+	max_y = -64
+	#Distribution: uniform | trapezoid | biased_to_bottom | very_biased_to_bottom
+	distribution = "uniform"
+
+#Large striated deposit carrying autunite (createnuclear:striated_ores_overworld)
+[striated]
+	#One attempt per N chunks (higher = rarer)
+	# Default: 18
+	# Range: 1 ~ 4096
+	rarity = 32
+	#Lowest Y, absolute
+	# Default: -128
+	# Range: -2048 ~ 2048
+	min_y = -128
+	#Highest Y, absolute
+	# Default: 0
+	# Range: -2048 ~ 2048
+	max_y = -96
+	#Distribution: uniform | trapezoid | biased_to_bottom | very_biased_to_bottom
+	distribution = "very_biased_to_bottom"
