@@ -114,9 +114,6 @@
   "jadeaddons.lootr": {
     "info": true
   },
-  "create_mechanical_spawner": {
-    "data": true
-  },
   "toms_storage": {
     "inventory_hopper": true,
     "inventory_config": true,
@@ -146,6 +143,9 @@
   },
   "mechanical_cow": {
     "data": true
+  },
+  "exposure_space": {
+    "analyzer": true
   },
   "barbequesdelight": {
     "grill": true
