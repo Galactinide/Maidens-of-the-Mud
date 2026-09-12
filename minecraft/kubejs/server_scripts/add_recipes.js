@@ -474,55 +474,6 @@ ServerEvents.recipes(event => {
 //Le Fishe au Chocolat
     event.recipes.create.filling('kubejs:le_fishe_au_chocolat', [Fluid.of('create:chocolate'), 'minecraft:cod'])
 
-//Uranium Processing
-    event.custom({
-        'type': 'create_dragons_plus:ending',
-        'ingredients': [{'item': 'minecraft:granite'}],
-        'results': [{'id': 'createnuclear:autunite'}]
-    })
-    event.recipes.create.crushing(
-        [
-            'kubejs:uraniumrich_gravel'
-        ],
-        'createnuclear:autunite'
-    )
-    event.recipes.create.compacting(
-        'kubejs:dense_uraniumrich_gravel',
-        [
-            Ingredient.of('kubejs:uraniumrich_gravel'),
-            Ingredient.of('kubejs:uraniumrich_gravel')
-        ]
-    )
-    event.recipes.create.splashing(
-        'kubejs:uraniumrich_slurry',
-        'kubejs:dense_uraniumrich_gravel'
-    )
-    event.recipes.create.compacting(
-        'kubejs:pitchblende', 
-        [
-            'kubejs:uraniumrich_slurry',
-            'create:crushed_raw_lead'
-        ]
-        
-    )
-        .heated()
-    event.recipes.create.mixing(
-        'kubejs:tyuyayamunite', 
-        [
-            'minecraft:yellow_dye',
-            'kubejs:pitchblende'
-        ])
-        .superheated()
-    event.recipes.create.crushing(
-        [
-            CreateItem.of('create:crushed_raw_uranium'),
-            CreateItem.of('create:crushed_raw_lead', 0.75),
-            CreateItem.of('minecraft:granite', 0.5)
-
-        ],
-        'kubejs:tyuyayamunite'
-    )
-
 //Create Cafe compats
     //Vinery Grape
     event.recipes.create.mixing(

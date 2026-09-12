@@ -240,6 +240,8 @@ ServerEvents.recipes(event => {
 //Replacing Uranium powder in crushing granite
     event.remove({id: 'create:crushing/granite'})
 
+//Intercepting Uranium Rod
+    event.remove({id: 'createnuclear:mechanical_crafting/uranium_rod'})
 //Closing Brackets
 })
 
