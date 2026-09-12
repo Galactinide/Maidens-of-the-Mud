@@ -45,7 +45,7 @@ StartupEvents.registry('item', event => {
         //Main Post Line
         event.create('brittle_uranium_rod')
             .displayName('Brittle Uranium Rod')
-            .texture('mud:item/placeholder')
+            .texture('mud:item/brittle_uranium_rod')
             .maxStackSize(64)
         event.create('yellowgangue')
             .displayName('Yellowgangue')
