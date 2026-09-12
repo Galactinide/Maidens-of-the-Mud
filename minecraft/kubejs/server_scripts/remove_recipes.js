@@ -195,8 +195,8 @@ ServerEvents.recipes(event => {
 
 //Remove Dimantic and Adamantine (Diamond and Netherite) Bees
     const beeTypes = [
-    'dimantic',
-    'adamantine'
+        'dimantic',
+        'adamantine'
     ]
 
     const combTypes = [
@@ -242,6 +242,38 @@ ServerEvents.recipes(event => {
 
 //Intercepting Uranium Rod
     event.remove({id: 'createnuclear:mechanical_crafting/uranium_rod'})
+
+//Supplementaries Cannon Boats
+const cannonBoatTypes = [
+        'oak',
+        'spruce',
+        'birch',
+        'jungle',
+        'acacia',
+        'cherry',
+        'ancient',
+        'azalea',
+        'blossom',
+        'cinnamon',
+        'dark_cherry',
+        'mahogany',
+        'canopy',
+        'mangrove',
+        'dark',
+        'time',
+        'transformation',
+        'mining',
+        'sorting'
+    ]
+
+cannonBoatTypes.forEach(type => {
+    event.remove({id: 'supplementaries:cannon_boat_'+type})
+})
+
+event.remove({id: "supplementaries:cannon_boat_dark_oak/minecraft/dark_oak"})
+event.remove({id: 'supplementaries:cannon_boat_twilight_oak/twilightforest/twilight_oak'})
+event.remove({id: "supplementaries:cannon_raft_bamboo"})
+
 //Closing Brackets
 })
 

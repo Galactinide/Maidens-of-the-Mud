@@ -136,6 +136,61 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
     event.remove('createcafe:mana_berry_milk_tea')
     event.remove('createcafe:mana_tea_bucket')
 
+    //Supplementaries Cannon Boats
+    const vanillaCannonBoatTypes = [
+        'oak',
+        'spruce',
+        'birch',
+        'jungle',
+        'acacia',
+        'dark_oak',
+        'cherry',
+        'mangrove'
+    ]
+
+    vanillaCannonBoatTypes.forEach(type => {
+        event.remove('supplementaries:cannon_boat_'+type)
+    })
+    
+    event.remove('supplementaries:cannon_raft_bamboo')
+
+    const quarkCannonBoatTypes = [
+        'ancient',
+        'azalea',
+        'blossom'
+    ]
+
+    quarkCannonBoatTypes.forEach(type => {
+        event.remove('supplementaries:quark/cannon_boat_'+type)
+    })
+
+    const hexereiCannonBoatTypes = [
+        'mahogany',
+        'willow'
+    ]
+
+    hexereiCannonBoatTypes.forEach(type => {
+        event.remove('supplementaries:hexerei/cannon_boat_'+type)
+    })
+
+    const twilightCannonBoatTypes = [
+        'canopy',
+        'mangrove',
+        'dark',
+        'time',
+        'transformation',
+        'mining',
+        'sorting',
+        'twilight_oak'
+    ]
+
+    twilightCannonBoatTypes.forEach(type => {
+        event.remove('supplementaries:twilightforest/cannon_boat_'+type)
+    })
+
+    event.remove('supplementaries:expandeddelight/cannon_boat_cinnamon')
+    event.remove('supplementaries:vinery/cannon_boat_dark_cherry')
+    
 //Closing Brackets
 })
 
@@ -205,4 +260,6 @@ RecipeViewerEvents.removeEntriesCompletely('fluid', event => {
 
     event.remove('createcafe:blood_tea')
     event.remove('createcafe:mana_tea')
+
+//Closing Brackets
 })
