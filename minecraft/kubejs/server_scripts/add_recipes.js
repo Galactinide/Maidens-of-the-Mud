@@ -381,12 +381,12 @@ ServerEvents.recipes(event => {
         ).heated()
 
         event.recipes.create.compacting(
-            'tfmg:cast_iron_ingot',
+            'tfmg:cast_iron_block',
             [Ingredient.of('minecraft:iron_block'), Ingredient.of('#minecraft:coals', 9)]
         ).heated()
 
         event.recipes.create.compacting(
-            'tfmg:cast_iron_ingot',
+            'tfmg:cast_iron_block',
             [Ingredient.of('minecraft:iron_block'), Ingredient.of('minecraft:coal_block')]
         ).heated()
 
